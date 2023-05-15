@@ -7,7 +7,19 @@
     },
     "files": [
       "main.ts",
-      "README.md"
+      "README.md",
+      "model-move.md",
+      "model-set.md",
+      "model-break.md",
+      "move-01.md",
+      "move-02.md",
+      "move-03.md",
+      "set-01.md",
+      "set-02.md",
+      "set-03.md",
+      "destroy-01.md",
+      "destroy-02.md",
+      "destroy-03.md"
     ],
     "testFiles": [
     ],
