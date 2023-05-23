@@ -5,14 +5,6 @@
 
 こんかいは``||くりかえし||``ブロックをつかうよ！「ループボタン」をクリックしてくりかえしブロックをだしてみよう！ひだりにいってまえにすすむ...を3かいくりかえせばよさそうだね！ということは...?
 
-<span>
-<style>
-    g:has(> path[stroke="#005aa1"]){
-        display:none !important;
-    }
-</style>
-</span>
-
 そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
 ```ghost

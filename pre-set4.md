@@ -5,14 +5,6 @@
 
 ``||agent.エージェントに前へ置かせる||``ブロックと``||agent.エージェントを前に1ブロック移動させる||``ブロックとくみあわせてエージェントにブロックをおいてもらおう！エージェントをべつのほうこうにうごかすには「前」のところをクリックすればメニューがでてきてえらべるよ！
 
-<span>
-<style>
-    g:has(> path[stroke="#005aa1"]){
-        display:none !important;
-    }
-</style>
-</span>
-
 そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
 ```ghost
