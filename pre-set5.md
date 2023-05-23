@@ -8,16 +8,14 @@
 そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
 ```ghost
-player.onChat("run", function () {
-    for (let index = 0; index < 4; index++) {
-    	
-    }
-    agent.place(FORWARD)
-    agent.move(FORWARD, 1)
-})
+for (let index = 0; index < 4; index++) {
+    
+}
+agent.place(FORWARD)
+agent.move(FORWARD, 1)
 ```
 
 ```template
-player.onChat("run", function () {})
+
 
 ```
