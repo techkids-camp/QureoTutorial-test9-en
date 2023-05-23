@@ -5,7 +5,7 @@
 
 こんかいは``||くりかえし||``ブロックをつかうよ！「ループボタン」をクリックしてくりかえしブロックをだしてみよう！うえにいってまえにいくをなんかいくりかえせばよさそうかな？
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおして「run」とチャットににゅうりょくしてプログラムをうごかしてみよう！
+そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
 ```ghost
 player.onChat("run", function () {
