@@ -6,15 +6,10 @@
 エージェントをつかってブロックをおいてもらうには、
 ``||agent.エージェントに前へ置かせる||``ブロックをつかうよ！
 
-ひだりから「エージェントボタン」をクリックしてそのなかにあるブロックを**あおいろ**のわくにいれちゃおう！
+ひだりから「エージェントボタン」をクリックしてそのなかにあるブロックを``||あおいろ||``のわくにいれちゃおう！
 
 そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
 ```ghost
 agent.place(FORWARD)
-```
-
-```template
-
-
 ```
