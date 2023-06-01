@@ -3,19 +3,12 @@
 
 ## エージェントをいろんなほうこうにいどうさせよう！
 
-ひだりにある「エージェント」ボタンをおすと``||agent.エージェントを前に1ブロック移動させる||``ブロックがあるからそれをあおいろの「チャットコマンドrunを入力した時」のなかにいれてみよう！
+ひだりにある「エージェント」ボタンをおすと``||agent.エージェントを前に1ブロック移動させる||``ブロックがあるからそれをみどりいろの「最初だけ」のなかにいれてみよう！
 
 そしたら「前」をクリックしたらメニューがでてくるからほうこうをえらんで、エージェントをどのほうこうにすすめるかきめよう！
 
-さいごにみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおして「run」とチャットににゅうりょくしてプログラムをうごかしてみよう！
+さいごにみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしてプログラムをうごかしてみよう！
 
 ```ghost
-player.onChat("run", function () {
-    agent.move(FORWARD, 1)
-})
-```
-
-```template
-player.onChat("run", function () {})
-
+agent.move(FORWARD, 1)
 ```

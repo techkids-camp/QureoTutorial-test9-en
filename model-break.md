@@ -3,13 +3,10 @@
 
 ## エージェントをうごかしてみよう！
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおして「run」とチャットににゅうりょくしてプログラムをうごかしてみよう！
+みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしてプログラムをうごかしてみよう！
 
 ```template
-player.onChat("run", function () {
-    agent.destroy(FORWARD)
-    agent.move(UP, 1)
-    agent.destroy(FORWARD)
-})
-
+agent.destroy(FORWARD)
+agent.move(UP, 1)
+agent.destroy(FORWARD)
 ```
