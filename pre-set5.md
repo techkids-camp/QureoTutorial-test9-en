@@ -16,6 +16,8 @@ agent.move(FORWARD, 1)
 ```
 
 ```template
-
-
+for (let index = 0; index < 1; index++) {
+    agent.place(FORWARD)
+    agent.move(FORWARD, 1)
+}
 ```
