@@ -13,3 +13,7 @@
 ```ghost
 agent.place(FORWARD)
 ```
+
+```template
+//
+```

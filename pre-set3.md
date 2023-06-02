@@ -13,6 +13,5 @@ agent.move(FORWARD, 1)
 ```
 
 ```template
-
-
+//
 ```
