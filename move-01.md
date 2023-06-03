@@ -1,3 +1,5 @@
+### @flyoutOnly true
+### @hideIteration true
 ### @hideIteration true
 # QureoMinecraft
 
@@ -9,4 +11,8 @@
 
 ```ghost
 agent.move(FORWARD, 1)
+```
+
+```template
+//
 ```

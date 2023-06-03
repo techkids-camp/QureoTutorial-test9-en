@@ -1,3 +1,5 @@
+### @flyoutOnly true
+### @hideIteration true
 ### @hideIteration true
 # QureoMinecraft
 
@@ -6,15 +8,12 @@
 エージェントをつかってブロックをおいてもらうには、
 ``||agent.エージェントに前へ置かせる||``ブロックをつかうよ！
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおして「run」とチャットににゅうりょくしてプログラムをうごかしてみよう！
+みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしてプログラムをうごかしてみよう！
 
 ```ghost
-player.onChat("run", function () {
     agent.place(FORWARD)
-})
 ```
 
 ```template
-player.onChat("run", function () {})
-
+//
 ```
