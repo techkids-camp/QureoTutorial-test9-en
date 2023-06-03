@@ -8,7 +8,7 @@
 エージェントをつかってブロックをおいてもらうには、
 ``||agent.エージェントに前へ置かせる||``ブロックをつかうよ！
 
-ひだりからブロックをとりだして``||loop.最初だけ||``のわくにいれちゃおう！
+ひだりからブロックをとりだして``||loops.最初だけ||``のわくにいれちゃおう！
 
 そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
