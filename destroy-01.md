@@ -8,12 +8,14 @@
 エージェントをつかってブロックをはかいするには、
 ``||agent.エージェントに前を破壊させる||``ブロックをつかうよ！
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしてプログラムをうごかしてみよう！
+みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、**tキーをおしてrunといれて**プログラムをうごかしてみよう！
 
 ```ghost
-    agent.destroy(FORWARD)
+    player.onChat("run", function () {
+        agent.destroy(FORWARD)
+    })
 ```
 
 ```template
-//
+    player.onChat("run", function () {})
 ```

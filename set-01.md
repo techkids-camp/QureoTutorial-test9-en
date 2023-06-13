@@ -8,12 +8,14 @@
 エージェントをつかってブロックをおいてもらうには、
 ``||agent.エージェントに前へ置かせる||``ブロックをつかうよ！
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしてプログラムをうごかしてみよう！
+みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、**tキーをおしてrunといれて**プログラムをうごかしてみよう！
 
 ```ghost
-    agent.place(FORWARD)
+    player.onChat("run", function () {
+        agent.place(FORWARD)
+    })
 ```
 
 ```template
-//
+    player.onChat("run", function () {})
 ```
