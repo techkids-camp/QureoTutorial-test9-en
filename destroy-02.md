@@ -9,7 +9,7 @@
 ``||agent.エージェントに前を破壊させる||``ブロックをつかうよ！
 ほうこうをえらんで、エージェントがどのほうこうのブロックをはかいするかきめよう！
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、**tキーをおしてrunといれて**プログラムをうごかしてみよう！
+みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 
 
 
