@@ -18,7 +18,7 @@ agent.move(FORWARD, 1)
 ```
 
 ```template
-for (let index = 0; index < 10; index++) {
+for (let index = 0; index < 8; index++) {
 
 }
 ```
