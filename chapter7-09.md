@@ -17,9 +17,9 @@
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
         agent.move(UP, 1)
-        if (agent.inspect(AgentInspection.Block, UP) == GOLD_BLOCK) {
+        if (agent.inspect(AgentInspection.Block, UP) == COBBLESTONE) {
         }
-        if (agent.inspect(AgentInspection.Block, UP) == DIORITE) {
+        if (agent.inspect(AgentInspection.Block, UP) == PLANKS_OAK) {
         }
     }
 })
@@ -28,12 +28,12 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
         agent.move(UP, 1)
-        if (agent.inspect(AgentInspection.Block, UP) == GOLD_BLOCK) {
+        if (agent.inspect(AgentInspection.Block, UP) == COBBLESTONE) {
             agent.move(RIGHT, 1)
             agent.move(UP, 2)
             agent.move(LEFT, 1)
         }
-        if (agent.inspect(AgentInspection.Block, UP) == DIORITE) {
+        if (agent.inspect(AgentInspection.Block, UP) == PLANKS_OAK) {
             agent.destroy(UP)
         }
     }

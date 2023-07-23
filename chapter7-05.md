@@ -27,10 +27,10 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 15; index++) {
         agent.move(FORWARD, 1)
-        if (agent.inspect(AgentInspection.Block, DOWN) == LAPIS_LAZULI_BLOCK) {
+        if (agent.inspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
             agent.turn(LEFT_TURN)
         }
-        if (agent.inspect(AgentInspection.Block, DOWN) == GOLD_BLOCK) {
+        if (agent.inspect(AgentInspection.Block, DOWN) == PLANKS_OAK) {
             agent.turn(RIGHT_TURN)
         }
     }
