@@ -18,7 +18,7 @@
 player.onChat("run", function () {
     for (let index = 0; index < 8; index++) {
         agent.move(FORWARD, 1)
-        if (agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
+        if (agent.inspect(AgentInspection.Block, FORWARD) == COBBLESTONE) {
         } else {
         }
     }
@@ -29,7 +29,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 8; index++) {
         agent.move(FORWARD, 1)
-        if (agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
+        if (agent.inspect(AgentInspection.Block, FORWARD) == COBBLESTONE) {
             agent.move(UP, 1)
             agent.move(FORWARD, 2)
             agent.move(DOWN, 1)

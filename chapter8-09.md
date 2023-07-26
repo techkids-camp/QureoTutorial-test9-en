@@ -30,7 +30,7 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
-        if (agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
+        if (agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
             agent.destroy(FORWARD)
             agent.move(RIGHT, 1)
         } else {
