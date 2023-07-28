@@ -5,9 +5,17 @@
 
 ## エージェントにブロックをおかせてみよう！
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしてプログラムをうごかしてみよう！
+みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 
 ```ghost
-agent.move(FORWARD, 1)
-agent.place(FORWARD)
+    player.onChat("run", function () {
+        agent.move(FORWARD, 1)
+        agent.place(FORWARD)
+    })
+```
+
+```template
+    player.onChat("run", function () {
+
+    })
 ```
