@@ -5,7 +5,7 @@
 
 ## エージェントをつかって、ブロックをおいてもらおう！
 
-こんかいは``||loops.くりかえし||``ブロックをつかうよ！「くりかえし10回」のなかにはなにをいれればかいだんができるかな？
+こんかいは``||loops.くりかえし||``ブロックをつかうよ！「くりかえし8回」のなかにはなにをいれればかいだんができるかな？
 
 そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
