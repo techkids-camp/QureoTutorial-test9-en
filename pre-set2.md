@@ -1,5 +1,6 @@
+### @flyoutOnly true
 ### @hideIteration true
-
+### @hideIteration true
 # QureoMinecraft
 
 ## エージェントをつかって、ブロックをおいてもらおう！
