@@ -80,7 +80,7 @@ player.onChat("run", function () {
     agent.setSlot(5)
     agent.place(FORWARD)
     agent.place(BACK)
-    agent.move(LEFT, 1)
+    agent.teleport(world(1194, 68, -785), WEST)
     agent.place(FORWARD)
     agent.place(BACK)
     agent.setSlot(2)
@@ -91,6 +91,7 @@ player.onChat("run", function () {
     agent.move(UP, 1)
     agent.place(DOWN)
 })
+
 
 ```
 
@@ -165,7 +166,7 @@ player.onChat("run", function () {
     agent.setSlot(5)
     agent.place(FORWARD)
     agent.place(BACK)
-    agent.move(LEFT, 1)
+    agent.teleport(world(1194, 68, -785), WEST)
     agent.place(FORWARD)
     agent.place(BACK)
     agent.setSlot(2)
