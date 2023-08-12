@@ -91,7 +91,11 @@
       "chapter8-10.md",
       "chapter8-11.md",
       "chapter8-12.md",
-      "traficLight.md"
+      "traficLight.md",
+      "policeStation.md",
+      "car.md",
+      "modanHouse.md",
+      "autoDoor.md"
     ],
     "testFiles": [
     ],
