@@ -24,7 +24,7 @@ function くうらん () {
     }
     agent.turn(LEFT_TURN)
 }
-player.onChat("run", function () {
+
     agent.move(FORWARD, 3)
     for (let index = 0; index < 3; index++) {
         agent.move(UP, 1)
@@ -76,7 +76,6 @@ player.onChat("run", function () {
     agent.destroy(RIGHT)
     agent.setSlot(4)
     agent.place(RIGHT)
-})
 
 ```
 
@@ -95,7 +94,7 @@ function くうらん () {
     }
     agent.turn(LEFT_TURN)
 }
-player.onChat("run", function () {
+
     agent.move(FORWARD, 3)
     for (let index = 0; index < 3; index++) {
         agent.move(UP, 1)
@@ -147,7 +146,6 @@ player.onChat("run", function () {
     agent.destroy(RIGHT)
     agent.setSlot(4)
     agent.place(RIGHT)
-})
 
 
 ```

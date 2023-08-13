@@ -16,7 +16,7 @@ function くうらん () {
         agent.move(UP, 1)
     }
 }
-player.onChat("run", function () {
+
     agent.setSlot(1)
     くうらん()
     agent.move(FORWARD, 2)
@@ -34,7 +34,6 @@ player.onChat("run", function () {
         agent.place(DOWN)
         agent.move(BACK, 1)
     }
-})
 ```
 
 ```template
@@ -44,7 +43,7 @@ function くうらん () {
         agent.move(UP, 1)
     }
 }
-player.onChat("run", function () {
+
     agent.setSlot(1)
     くうらん()
     agent.move(FORWARD, 2)
@@ -62,6 +61,5 @@ player.onChat("run", function () {
         agent.place(DOWN)
         agent.move(BACK, 1)
     }
-})
 
 ```

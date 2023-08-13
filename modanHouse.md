@@ -24,7 +24,7 @@ function くうらん2 () {
     agent.move(FORWARD, 1)
     agent.turn(LEFT_TURN)
 }
-player.onChat("run", function () {
+
     agent.move(FORWARD, 3)
     for (let index = 0; index < 5; index++) {
         agent.setSlot(1)
@@ -152,7 +152,6 @@ player.onChat("run", function () {
             agent.place(DOWN)
         }
     }
-})
 
 
 ```
@@ -172,7 +171,7 @@ function くうらん2 () {
     agent.move(FORWARD, 1)
     agent.turn(LEFT_TURN)
 }
-player.onChat("run", function () {
+
     agent.move(FORWARD, 3)
     for (let index = 0; index < 5; index++) {
         agent.setSlot(1)
@@ -300,6 +299,6 @@ player.onChat("run", function () {
             agent.place(DOWN)
         }
     }
-})
+
 
 ```
