@@ -112,6 +112,7 @@ function くうらん2 () {
             agent.place(FORWARD)
             agent.move(UP, 1)
             agent.setSlot(3)
+            agent.setItem(BLOCK_OF_QUARTZ, 64, 2)
             agent.place(DOWN)
         }
         agent.turn(LEFT_TURN)
@@ -122,6 +123,7 @@ function くうらん2 () {
         くうらん2()
         for (let index = 0; index < 5; index++) {
             agent.setSlot(3)
+            agent.setItem(BLOCK_OF_QUARTZ, 64, 2)
             agent.place(FORWARD)
             agent.move(UP, 1)
             agent.setSlot(2)
@@ -130,6 +132,7 @@ function くうらん2 () {
         agent.turn(LEFT_TURN)
         agent.setSlot(3)
         for (let index = 0; index < 7; index++) {
+            agent.setItem(BLOCK_OF_QUARTZ, 64, 2)
             agent.move(BACK, 1)
             agent.place(FORWARD)
         }
@@ -141,6 +144,7 @@ function くうらん2 () {
     agent.turn(LEFT_TURN)
     agent.setSlot(3)
     for (let index = 0; index < 3; index++) {
+        agent.setItem(BLOCK_OF_QUARTZ, 64, 2)
         agent.move(UP, 1)
         for (let index = 0; index < 7; index++) {
             agent.place(DOWN)
@@ -259,6 +263,7 @@ function くうらん2 () {
             agent.place(FORWARD)
             agent.move(UP, 1)
             agent.setSlot(3)
+            agent.setItem(BLOCK_OF_QUARTZ, 64, 2)
             agent.place(DOWN)
         }
         agent.turn(LEFT_TURN)
@@ -269,6 +274,7 @@ function くうらん2 () {
         くうらん2()
         for (let index = 0; index < 5; index++) {
             agent.setSlot(3)
+            agent.setItem(BLOCK_OF_QUARTZ, 64, 2)
             agent.place(FORWARD)
             agent.move(UP, 1)
             agent.setSlot(2)
@@ -277,6 +283,7 @@ function くうらん2 () {
         agent.turn(LEFT_TURN)
         agent.setSlot(3)
         for (let index = 0; index < 7; index++) {
+            agent.setItem(BLOCK_OF_QUARTZ, 64, 2)
             agent.move(BACK, 1)
             agent.place(FORWARD)
         }
@@ -288,6 +295,7 @@ function くうらん2 () {
     agent.turn(LEFT_TURN)
     agent.setSlot(3)
     for (let index = 0; index < 3; index++) {
+        agent.setItem(BLOCK_OF_QUARTZ, 64, 2)
         agent.move(UP, 1)
         for (let index = 0; index < 7; index++) {
             agent.place(DOWN)
