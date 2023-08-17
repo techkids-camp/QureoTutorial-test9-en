@@ -1,0 +1,40 @@
+### @flyoutOnly true
+### @hideIteration true
+### @hideIteration true
+# QureoMinecraft
+
+## エージェントをうごかしてみよう！
+
+こんかいはつぎのブロックをつかうよ！
+
+``||loop.もし真ならくりかえし||``
+
+``||agent.エージェントに◯へ置かせる||``
+
+``||agent.エージェントを◯に◯ブロック移動させる||``
+
+``||agent.エージェントを自分の位置にもどす||``
+
+みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてgoとrunをいれてプログラムをうごかしてみよう！
+
+```template
+player.onChat("go", function () {
+
+})
+player.onChat("run", function () {
+
+})
+```
+
+```ghost
+player.onChat("go", function () {
+    while (true) {
+        agent.move(FORWARD, 1)
+        agent.place(DOWN)
+    }
+})
+player.onChat("run", function () {
+    agent.teleportToPlayer()
+})
+
+```
