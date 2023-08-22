@@ -24,7 +24,9 @@
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおそう！
 
 ```template
+while (true) {
 
+}
 ```
 
 ```ghost
