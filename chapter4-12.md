@@ -22,8 +22,10 @@
 ```template
     player.onChat("run", function () {
         for (let index = 0; index < 4; index++) {
-            agent.place(FORWARD)
-            agent.move(UP, 1)   
+            for (let index = 0; index < 4; index++) {
+                agent.place(FORWARD)
+                agent.move(UP, 1)
+            }
         }
     })
 ```
