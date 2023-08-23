@@ -11,8 +11,8 @@
 ``||agent.エージェントにどんなブロックか○を確認させる||``
 ``||logic.もし○○なら||``
 ``||logic.=||``
-``||blocks.金(きん)のブロック||``
-``||blocks.ラピスラズリのブロック||``
+``||blocks.丸石||``
+``||blocks.樫(かし)の木材||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 
