@@ -22,9 +22,11 @@
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおそう！
 
 ```template
-while (true) {
+player.onChat("run", function () {
+    while (true) {
 
-}
+    }
+})
 ```
 
 ```ghost

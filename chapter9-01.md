@@ -8,12 +8,14 @@
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおそう！
 
 ```template
-while (true) {
-    agent.move(FORWARD, 1)
-    if (agent.detect(AgentDetection.Block, FORWARD) == true) {
-        break;
+player.onChat("run", function () {
+    while (true) {
+        agent.move(FORWARD, 1)
+        if (agent.detect(AgentDetection.Block, FORWARD) == true) {
+            break;
+        }
     }
-}
+})
 
 ```
 

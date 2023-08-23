@@ -18,13 +18,13 @@
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおそう！
 
 ```template
-while (true) {
-    agent.move(UP, 1)
-    agent.place(DOWN)
-    agent.move(FORWARD, 1)
-}
-
-
+player.onChat("run", function () {
+    while (true) {
+        agent.move(UP, 1)
+        agent.place(DOWN)
+        agent.move(FORWARD, 1)
+    }
+})
 ```
 
 ```ghost

@@ -14,11 +14,13 @@
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおそう！
 
 ```template
-while (true) {
-    if (agent.detect(AgentDetection.Block, FORWARD) == false) {
-        break;
+player.onChat("run", function () {
+    while (true) {
+        if (agent.detect(AgentDetection.Block, FORWARD) == false) {
+            break;
+        }
     }
-}
+})
 ```
 
 ```ghost
