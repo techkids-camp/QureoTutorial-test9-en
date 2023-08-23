@@ -5,7 +5,7 @@
 
 ## エージェントをうごかしてみよう！
 
-こんかいは``||agent.エージェントに○へ置かせる||``ブロックをつかうよ！
+こんかいは``||agent.エージェントの向きを○に変える||``ブロックをつかうよ！
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 ```template
@@ -18,15 +18,14 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 20; index++) {
-        if (agent.detect(AgentDetection.Block, FORWARD) == false) {
-            agent.move(FORWARD, 1)
-        }
         if (agent.detect(AgentDetection.Block, LEFT) == false) {
-            agent.move(LEFT, 1)
+            agent.turn(LEFT_TURN)
         }
         if (agent.detect(AgentDetection.Block, RIGHT) == false) {
-            agent.move(RIGHT, 1)
+            agent.turn(RIGHT_TURN)
         }
+        agent.move(FORWARD, 1)
     }
 })
+
 ```
