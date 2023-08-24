@@ -19,7 +19,9 @@
 
 ```template
 player.onChat("go", function () {
+    while (true) {
 
+    }
 })
 player.onChat("run", function () {
 
