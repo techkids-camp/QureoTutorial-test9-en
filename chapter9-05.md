@@ -16,7 +16,7 @@
 ```template
 player.onChat("run", function () {
     while (true) {
-        if (agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
+        if (agent.inspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
             break;
         }
     }
@@ -28,7 +28,7 @@ player.onChat("run", function () {
 while (true) {
     agent.destroy(UP)
     agent.move(UP, 1)
-    if (agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
+    if (agent.inspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
         break;
     }
 }
