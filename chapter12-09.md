@@ -27,6 +27,7 @@ player.onChat("run", function () {
         }
         agent.turn(LEFT_TURN)
     }
+    agent.teleportToPlayer()
 })
 
 ```
