@@ -1,8 +1,17 @@
 # QureoMinecraft
 
-## エージェントに樫の木をこわしてもらおう！
+## エージェントに3つトンネルを作ってもらおう！
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてgoとrunをいれてプログラムをうごかしてみよう！
+
+```template
+player.onChat("go", function () {
+
+})
+player.onChat("run", function () {
+
+})
+```
 
 ```ghost
 player.onChat("run", function () {
