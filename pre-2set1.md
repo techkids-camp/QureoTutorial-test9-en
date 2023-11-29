@@ -5,7 +5,7 @@
 
 ## エージェントをつかって、ブロックをおいてもらおう！
 
-こんかいは``||loops.くりかえし||``ブロックをつかうよ！まえにおいてうえにいくをなんかいくりかえせばいいかな？「くりかえし」のなかのすうじをかえてみよう！
+こんかいは``||loops.くりかえし||``ブロックをつかうよ！まえにおいてしたにいくをなんかいくりかえせばいいかな？「くりかえし」のなかのすうじをかえてみよう！
 
 そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
@@ -20,6 +20,6 @@ agent.move(FORWARD, 1)
 ```template
 for (let index = 0; index < 1; index++) {
     agent.place(FORWARD)
-    agent.move(UP, 1)
+    agent.move(DOWN, 1)
 }
 ```
