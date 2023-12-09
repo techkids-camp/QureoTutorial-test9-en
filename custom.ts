@@ -5,4 +5,10 @@ namespace agentHiragana {
     export function agentMoveHiragana(direction: SixDirection, value: number){
         agent.move(direction, value);
     }
+
+    //% blockId=agentSetHiragana
+    //% block="エージェントを $direction へ置かせる"
+    export function agentSetHiragana(direction: SixDirection) {
+        agent.place(direction);
+    }
 }
