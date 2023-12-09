@@ -2,7 +2,7 @@
 namespace agentHiragana {
     //% blockId=agentMoveHiragana
     //% block="エージェントを $direction に $value ブロックいどうさせる"
-    export function agentMoveHiragana(direction: SixDirection, value: number){
+    export function agentMoveHiragana(direction: SixDirection, value: number) {
         agent.move(direction, value);
     }
 
@@ -15,6 +15,12 @@ namespace agentHiragana {
     //% blockId=agentBreakHiragana
     //% block="エージェントに $direction をはかいさせる"
     export function agentBreakHiragana(direction: SixDirection) {
-        agent.destory(direction);
+        agent.destroy(direction);
+    }
+
+    //% blockId=agentTurnHiragana
+    //% block="エージェントのむきを $direction にかえる"
+    export function agentTurnHiragana(direction: TurnDirection) {
+        agent.turn(direction);
     }
 }
