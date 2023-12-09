@@ -36,9 +36,19 @@ namespace agentHiragana {
         return agent.detect(AgentDetection.Block, direction);
     }
 
+    //% blockId=agentTeleportHiragana
+    //% block="エージェントを $position=minecraftCreatePosition へ $direction むきにテレポートさせる"
+    export function agentTeleportHiragana(position: Position = pos(0, 0, 0), direction: CompassDirection) {
+        agent.teleport(positions.add(
+            agent.getPosition(),
+            position
+        ), direction);
+    }
+
     //% blockId=agentTeleportPlayerHiragana
     //% block="エージェントをじぶんのいちにもどす"
     export function agentTeleportPlayerHiragana() {
         agent.teleportToPlayer();
     }
+    
 }
