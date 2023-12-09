@@ -35,4 +35,10 @@ namespace agentHiragana {
     export function agentDetectHiragana(direction: SixDirection): boolean {
         return agent.detect(AgentDetection.Block, direction);
     }
+
+    //% blockId=agentTeleportPlayerHiragana
+    //% block="エージェントをじぶんのいちにもどす"
+    export function agentTeleportPlayerHiragana() {
+        agent.teleportToPlayer();
+    }
 }
