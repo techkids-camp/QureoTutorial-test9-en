@@ -29,4 +29,10 @@ namespace agentHiragana {
     export function agentInspectHiragana(direction: SixDirection): number {
         return agent.inspect(AgentInspection.Block, direction);
     }
+
+    //% blockId=agentDetectHiragana
+    //% block="エージェントブロックがあるか、 $direction をかくにんさせる"
+    export function agentDetectHiragana(direction: SixDirection): boolean {
+        return agent.detect(AgentDetection.Block, direction);
+    }
 }
