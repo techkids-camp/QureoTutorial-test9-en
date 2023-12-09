@@ -7,8 +7,14 @@ namespace agentHiragana {
     }
 
     //% blockId=agentSetHiragana
-    //% block="エージェントを $direction へ置かせる"
+    //% block="エージェントを $direction へおかせる"
     export function agentSetHiragana(direction: SixDirection) {
         agent.place(direction);
+    }
+
+    //% blockId=agentBreakHiragana
+    //% block="エージェントに $direction をはかいさせる"
+    export function agentBreakHiragana(direction: SixDirection) {
+        agent.destory(direction);
     }
 }
