@@ -1,3 +1,15 @@
+enum hiraganaDirection {
+    //% block="西(Xのマイナスほうこう)"
+    WEST = 4,
+    //% block="東(Xのプラスほうこう)"
+    EAST = 1,
+    //% block="北(Zのマイナスほうこう)"
+    NORTH = 0,
+    //% block="南(Zのプラスほうこう)"
+    SOUTH = 2,
+}
+
+
 //% color=#D83B01 weight=400 icon="\uf04b" block=エージェント
 namespace agentHiragana {
     //% blockId=agentMoveHiragana
@@ -38,7 +50,7 @@ namespace agentHiragana {
 
     //% blockId=agentTeleportHiragana
     //% block="エージェントを $position=minecraftCreatePosition へ $direction むきにテレポートさせる"
-    export function agentTeleportHiragana(position: Position = pos(0, 0, 0), direction: CompassDirection) {
+    export function agentTeleportHiragana(position: Position = pos(0, 0, 0), direction: hiraganaDirection) {
         agent.teleport(positions.add(
             agent.getPosition(),
             position
