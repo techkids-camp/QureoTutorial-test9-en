@@ -3,9 +3,11 @@
     "version": "0.0.53",
     "description": "",
     "dependencies": {
-        "device": "*"
+        "core": "*",
+        "builder": "*"
     },
     "files": [
+      "main.blocks",
       "main.ts",
       "README.md",
       "model-move.md",
