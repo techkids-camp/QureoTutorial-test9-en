@@ -11,7 +11,7 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 9; index++) {
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == false) {
+        if (agent.detect(AgentDetection.Block, FORWARD) == false) {
             agent.place(FORWARD)
         }
     }
@@ -21,7 +21,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 9; index++) {
         agent.move(LEFT, 1)
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == false) {
+        if (agent.detect(AgentDetection.Block, DOWN) == false) {
             agent.place(FORWARD)
         }
     }
