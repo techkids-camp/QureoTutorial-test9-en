@@ -24,7 +24,7 @@ player.onChat("run", function () {
     for (let index = 0; index < 4; index++) {
         for (let index = 0; index < 4; index++) {
             agent.move(FORWARD, 1)
-            if (agent.detect(AgentDetection.Block, DOWN) == true) {
+            if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == true) {
                 agent.destroy(DOWN)
             }
         }

@@ -18,10 +18,10 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 20; index++) {
-        if (agent.detect(AgentDetection.Block, LEFT) == false) {
+        if (agentInspectDetect.agentDetect(AgentDetection.Block, LEFT) == false) {
             agent.turn(LEFT_TURN)
         }
-        if (agent.detect(AgentDetection.Block, RIGHT) == false) {
+        if (agentInspectDetect.agentDetect(AgentDetection.Block, RIGHT) == false) {
             agent.turn(RIGHT_TURN)
         }
         agent.move(FORWARD, 1)

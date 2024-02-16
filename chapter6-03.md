@@ -9,7 +9,7 @@
 
 ```template
 player.onChat("run", function () {
-    if (agent.detect(AgentDetection.Block, FORWARD) == false) {
+    if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == false) {
         agent.place(FORWARD)
     }
 })
