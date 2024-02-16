@@ -8,6 +8,7 @@
     },
     "files": [
       "main.blocks",
+      "custom.ts",
       "main.ts",
       "README.md",
       "model-move.md",
@@ -150,8 +151,7 @@
       "car.md",
       "modanHouse.md",
       "autoDoor.md",
-      "jetcoaster.md",
-      "test.md"
+      "jetcoaster.md"
     ],
     "testFiles": [
     ],
