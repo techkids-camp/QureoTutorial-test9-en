@@ -2,13 +2,13 @@
 namespace agentInspectDetect{
     //% blockId=agentInspect
     //% block="エージェントにどんな $kind か、 $direction を確認させる"
-    export function agentInspectHiragana(kind: AgentInspection, direction: SixDirection): number {
+    export function agentInspect(kind: AgentInspection, direction: SixDirection): number {
         return agent.inspect(kind, direction);
     }
 
     //% blockId=agentDetect
     //% block="エージェントに $kind があるか、 $direction を確認させる"
-    export function agentDetectHiragana(kind: AgentDetection, direction: SixDirection): boolean {
+    export function agentDetect(kind: AgentDetection, direction: SixDirection): boolean {
         return agent.detect(kind, direction);
     }
 }
