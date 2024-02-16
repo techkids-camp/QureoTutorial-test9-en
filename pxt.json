@@ -7,7 +7,6 @@
     },
     "files": [
       "main.ts",
-      "custum.ts",
       "README.md",
       "model-move.md",
       "model-set.md",
