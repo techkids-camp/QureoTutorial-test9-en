@@ -1,3 +1,6 @@
+/**
+ * Custom blocks
+ */
 //% color=#D83B01 weight=400 icon="\uf04b" block="エージェントチェック"
 namespace agentInspectDetect{
     //% blockId=agentInspect
