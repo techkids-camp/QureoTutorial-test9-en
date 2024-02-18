@@ -12,9 +12,9 @@
 player.onChat("run", function () {
     for (let index = 0; index < 20; index++) {
         agent.move(FORWARD, 1)
-        if (agent.inspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
+        if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
         }
-        if (agent.inspect(AgentInspection.Block, DOWN) == PLANKS_OAK) {
+        if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == PLANKS_OAK) {
         }
     }
 })
@@ -23,10 +23,10 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 20; index++) {
         agent.move(FORWARD, 1)
-        if (agent.inspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
+        if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
             agent.turn(LEFT_TURN)
         }
-        if (agent.inspect(AgentInspection.Block, DOWN) == PLANKS_OAK) {
+        if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == PLANKS_OAK) {
             agent.turn(RIGHT_TURN)
         }
     }

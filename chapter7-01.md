@@ -9,7 +9,7 @@
 
 ```template
 player.onChat("run", function () {
-    if (agent.inspect(AgentInspection.Block, DOWN) == GOLD_BLOCK) {
+    if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == GOLD_BLOCK) {
         agent.turn(LEFT_TURN)
     }
 })

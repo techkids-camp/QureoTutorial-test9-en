@@ -32,7 +32,7 @@ player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
         for (let index = 0; index < 10; index++) {
             agent.move(UP, 1)
-            if (agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
+            if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
                 agent.destroy(FORWARD)
             }
         }
