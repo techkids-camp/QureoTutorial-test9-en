@@ -8,7 +8,7 @@
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
         agent.move(FORWARD, 1)
-        if (agent.detect(AgentDetection.Block, DOWN) == false) {
+        if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == false) {
             agent.destroy(FORWARD)
         }
     }
