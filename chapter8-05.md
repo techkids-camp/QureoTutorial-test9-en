@@ -30,7 +30,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 6; index++) {
         agent.move(LEFT, 1)
-        if (agent.detect(AgentDetection.Block, FORWARD) == true) {
+        if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
             agent.destroy(FORWARD)
         } else {
             agent.place(FORWARD)

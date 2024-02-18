@@ -28,7 +28,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 7; index++) {
         agent.move(RIGHT, 1)
-        if (agent.detect(AgentDetection.Block, FORWARD) == true) {
+        if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
             agent.place(BACK)
         } else {
             agent.place(FORWARD)
