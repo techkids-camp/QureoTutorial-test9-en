@@ -22,7 +22,7 @@ player.onChat("run", function () {
         }
     }
     while (true) {
-        if (agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
+        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == GRASS) {
             agent.destroy(FORWARD)
         }
         agent.turn(LEFT_TURN)
