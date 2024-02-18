@@ -35,7 +35,7 @@ player.onChat("run", function () {
 while (true) {
     agent.destroy(FORWARD)
     agent.move(RIGHT, 1)
-    if (agent.inspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
+    if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
         break;
     }
 }
