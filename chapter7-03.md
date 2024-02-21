@@ -27,7 +27,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 16; index++) {
         agent.move(FORWARD, 1)
-        if (agent.inspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
+        if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
             agent.turn(RIGHT_TURN)
         }
     }

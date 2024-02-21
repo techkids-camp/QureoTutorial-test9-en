@@ -17,7 +17,7 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 9; index++) {
-        if (agent.inspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
+        if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
         } else {
         }
     }
@@ -26,7 +26,7 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 9; index++) {
-        if (agent.inspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
+        if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
             agent.move(FORWARD, 1)
         } else {
             agent.destroy(DOWN)

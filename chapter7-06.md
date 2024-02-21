@@ -14,7 +14,7 @@
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
         agent.move(UP, 1)
-        if (agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
+        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
         }
     }
 })
@@ -23,7 +23,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
         agent.move(UP, 1)
-        if (agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
+        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
             agent.destroy(FORWARD)
         }
     }

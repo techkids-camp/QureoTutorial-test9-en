@@ -34,7 +34,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 4; index++) {
         for (let index = 0; index < 4; index++) {
-            if (agent.inspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
+            if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
                 agent.move(FORWARD, 1)
             } else {
                 agent.destroy(DOWN)

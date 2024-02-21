@@ -28,7 +28,7 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
-        if (agent.detect(AgentDetection.Block, FORWARD) == true) {
+        if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
             agent.destroy(FORWARD)
             agent.move(UP, 1)
         } else {

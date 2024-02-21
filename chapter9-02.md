@@ -15,7 +15,7 @@
 ```template
 player.onChat("run", function () {
     while (true) {
-        if (agent.detect(AgentDetection.Block, UP) == true) {
+        if (agentInspectDetect.agentDetect(AgentDetection.Block, UP) == true) {
             break;
         }
     }
@@ -26,7 +26,7 @@ player.onChat("run", function () {
 while (true) {
     agent.place(FORWARD)
     agent.move(UP, 1)
-    if (agent.detect(AgentDetection.Block, UP) == true) {
+    if (agentInspectDetect.agentDetect(AgentDetection.Block, UP) == true) {
         break;
     }
 }

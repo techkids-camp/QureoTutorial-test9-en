@@ -36,7 +36,7 @@ while (true) {
     agent.place(LEFT)
     agent.place(RIGHT)
     agent.move(UP, 1)
-    if (agent.detect(AgentDetection.Block, UP) == true) {
+    if (agentInspectDetect.agentDetect(AgentDetection.Block, UP) == true) {
         break;
     }
 }

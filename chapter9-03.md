@@ -32,7 +32,7 @@ while (true) {
     agent.move(UP, 1)
     agent.place(DOWN)
     agent.move(FORWARD, 1)
-    if (agent.detect(AgentDetection.Block, FORWARD) == true) {
+    if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
         break;
     }
 }

@@ -36,7 +36,7 @@ while (true) {
     agent.destroy(FORWARD)
     agent.destroy(DOWN)
     agent.move(FORWARD, 1)
-    if (agent.detect(AgentDetection.Block, FORWARD) == false) {
+    if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == false) {
         break;
     }
 }
