@@ -13,11 +13,11 @@
 
 ``||agent.エージェントを◯に◯ブロック移動させる||``
 
-``||blocks.草（くさ）ブロック||``
+``||blocks.丸石（まるいし）ブロック||``
 
 ``||logic.もし◯なら〜でなければ〜||``
 ``||logic.=||``
-
+    
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 
