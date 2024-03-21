@@ -5,7 +5,7 @@
 
 ## エージェントをつかって、スイッチをおさせよう！
 
-こんかいは``||loops.くりかえし||``ブロックをつかうよ！なにを4かいくりかえせばいいかな？
+こんかいは``||loops.くりかえし||``ブロックをつかうよ！なにをなんかいくりかえせばいいかな？
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 

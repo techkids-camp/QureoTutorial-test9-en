@@ -7,7 +7,7 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントにを◯に◯ブロック移動させる||``
+``||agent.エージェントを◯に◯ブロック移動させる||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてgoとrunをいれてプログラムをうごかしてみよう！
 
