@@ -24,7 +24,7 @@ namespace hiragana_player{
 
     //% blockId=hiragana_player
     //% block="じぶんを $to にテレポートさせる"
-    export function agentDetect(pos: Position): void {
+    export function teleport(pos: Position): void {
         return player.teleport(pos);
     }
 }
@@ -37,7 +37,7 @@ namespace hiragana_agent{
 
     //% blockId=hiragana_agent
     //% block="えーじぇんとに $direction へおかせる"
-    export function agentDetect(direction: SixDirection): void {
+    export function place(direction: SixDirection): void {
         return agent.place(direction);
     }
 }
