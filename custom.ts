@@ -33,11 +33,11 @@ namespace hiragana_player{
  * Custom blocks
  */
 //% color=#D83B01 weight=400 icon="\uf04b" block="ひらがな＿エージェント"
-namespace hiragana_egent{
+namespace hiragana_agent{
 
-    //% blockId=hiragana_egent
+    //% blockId=hiragana_agent
     //% block="えーじぇんとに $direction へおかせる"
     export function agentDetect(direction: SixDirection): void {
-        return egent.place(direction);
+        return agent.place(direction);
     }
 }
