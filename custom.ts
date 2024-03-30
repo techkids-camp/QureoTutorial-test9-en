@@ -53,10 +53,16 @@ namespace hiragana_agent{
         return agent.place(direction);
     }
 
+    //% blockId=hiragana_agent
+    //% block="えーじぇんとのむきを $direction にかえる"
+    export function turn(direction: SixDirection): void {
+        return agent.turn(direction);
+    }
+
 
     //% blockID=hiragana_agent
     //% block="えーじぇんとに $direction へ $blocks だけうごかす"
-    export function move(direction: SixDirection , blocks : number): void {
+    export function move(direction: SixDirection,blocks : number): void {
         return agent.move(direction,blocks);
     }
 }
