@@ -46,4 +46,10 @@ namespace hiragana_agent{
     export function place(direction: SixDirection): void {
         return agent.place(direction);
     }
+
+    //% blockId=hiragana_agent
+    //% block="スロットばんごう $slot をセットする"
+    export function setSlot(slot: number): void {
+        return agent.setSlot(slot);
+    }
 }
