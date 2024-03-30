@@ -19,7 +19,7 @@ namespace agentInspectDetect{
 /**
  * Custom blocks
  */
-//% color=#D83B01 weight=400 icon="\uf04b" block="ひらがな_プレイヤー"
+//% color=#D83B01 weight=400 icon="\uf007" block="ひらがな_プレイヤー"
 namespace hiragana_player{
 
     //% blockId=hiragana_player
