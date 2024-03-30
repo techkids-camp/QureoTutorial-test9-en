@@ -35,10 +35,10 @@ namespace hiragana_player{
 //% color=#D83B01 weight=400 icon="\uf04b" block="ひらがな＿エージェント"
 namespace hiragana_agent{
 
-    //% blockID=hiragana_agent
-    //% block="えーじぇんとに $direction へ $blocks だけうごかす"
-    export function move(direction: SixDirection , blocks : number): void {
-        return agent.move(direction,blocks);
+    //% blockId=hiragana_agent
+    //% block="スロットばんごう $slot をセットする"
+    export function setSlot(slot: number): void {
+        return agent.setSlot(slot);
     }
 
     //% blockId=hiragana_agent
@@ -47,9 +47,10 @@ namespace hiragana_agent{
         return agent.place(direction);
     }
 
-    //% blockId=hiragana_agent
-    //% block="スロットばんごう $slot をセットする"
-    export function setSlot(slot: number): void {
-        return agent.setSlot(slot);
+
+    //% blockID=hiragana_agent
+    //% block="えーじぇんとに $direction へ $blocks だけうごかす"
+    export function move(direction: SixDirection , blocks : number): void {
+        return agent.move(direction,blocks);
     }
 }
