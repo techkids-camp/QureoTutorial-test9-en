@@ -32,7 +32,7 @@ namespace hiragana_player{
 /**
  * Custom blocks
  */
-//% color=#D83B01 weight=400 icon="\uf04b" block="ひらがな＿エージェント"
+//% color=#D83B01 weight=400 icon="\uf544" block="ひらがな＿エージェント"
 namespace hiragana_agent{
 
     //% blockId=hiragana_agent
