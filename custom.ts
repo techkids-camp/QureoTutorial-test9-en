@@ -19,7 +19,7 @@ namespace agentInspectDetect{
 /**
  * Custom blocks
  */
-//% color=#D83B01 weight=400 icon="\uf007" block="ひらがな_プレイヤー"
+//% color=#1b17fc weight=400 icon="\uf007" block="ひらがな_プレイヤー"
 namespace hiragana_player{
 
     //% blockId=hiragana_player
@@ -32,13 +32,19 @@ namespace hiragana_player{
 /**
  * Custom blocks
  */
-//% color=#D83B01 weight=400 icon="\uf544" block="ひらがな＿エージェント"
+//% color=#D83B01 weight=400 icon="\uf1e6" block="ひらがな＿エージェント"
 namespace hiragana_agent{
 
     //% blockId=hiragana_agent
     //% block="スロットばんごう $slot をセットする"
     export function setSlot(slot: number): void {
         return agent.setSlot(slot);
+    }
+
+    //% blockId=hiragana_agent
+    //% block="スロットばんごう $slot のアイテムを $direction におく"
+    export function destory(direction: SixDirection): void {
+        return agent.destroy(direction);
     }
 
     //% blockId=hiragana_agent
