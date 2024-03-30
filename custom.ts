@@ -35,6 +35,12 @@ namespace hiragana_player{
 //% color=#D83B01 weight=400 icon="\uf04b" block="ひらがな＿エージェント"
 namespace hiragana_agent{
 
+    //% blockID=hiragana_agent
+    //% block="えーじぇんとに $direction へ $blocks だけうごかす"
+    export function move(direction: SixDirection , blocks : number): void {
+        return agent.move(direction,blocks);
+    }
+
     //% blockId=hiragana_agent
     //% block="えーじぇんとに $direction へおかせる"
     export function place(direction: SixDirection): void {
