@@ -73,7 +73,7 @@ namespace hiragana_agent {
 //% color=#1b17fc weight=400 icon="\uf007" block="ろんり"
 namespace hiragana_ronri {
 
-    //% block="hiragana_if_0"
+    //% block="hiragana_ronri_0"
     //% block="もし $boolaa ならば"
     //% handlerStatement
     //% boolaa.defl=True
