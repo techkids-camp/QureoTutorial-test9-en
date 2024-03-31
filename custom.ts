@@ -55,7 +55,7 @@ namespace hiragana_agent{
 
     //% blockId=hiragana_agent
     //% block="えーじぇんとのむきを $direction にかえる"
-    export function turn(direction: SixDirection): void {
+    export function turn(direction: TurnDirection): void {
         return agent.turn(direction);
     }
 
