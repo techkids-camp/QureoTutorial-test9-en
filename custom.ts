@@ -55,7 +55,7 @@ namespace hiragana_agent {
     }
 
     //% blockId=hiragana_agent_3
-    //% block="スロットばんごう $slot のアイテムを $direction におく"
+    //% block=" $direction をはかいする"
     export function destory(direction: SixDirection): void {
         return agent.destroy(direction);
     }
