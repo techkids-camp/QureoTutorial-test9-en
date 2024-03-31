@@ -14,14 +14,11 @@ namespace hiragana_player {
         player.onChat(onChat, workFlow)
     }
 
-
     //% blockId=hiragana_player_0
     //% block="じぶんを $to にテレポートさせる"
     export function teleport(pos: Position): void {
         return player.teleport(pos);
     }
-
-
 }
 
 /**
