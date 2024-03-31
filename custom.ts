@@ -75,6 +75,7 @@ namespace hiragana_agent {
 
     //% blockID=hiragana_agent_0
     //% block="えーじぇんとに $direction へ $blocks だけうごかす"
+    //% blocks.defl=1
     export function move(direction: SixDirection, blocks: number): void {
         return agent.move(direction, blocks);
     }
