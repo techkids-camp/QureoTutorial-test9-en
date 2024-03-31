@@ -22,11 +22,24 @@ namespace agentInspectDetect {
 //% color=#1b17fc weight=400 icon="\uf007" block="ひらがな_プレイヤー"
 namespace hiragana_player {
 
+    //% blockId=hiragana_player_1
+    //% block="チャットコマンド$onChat を入力した時"
+    //% onChat.defl=run
+    export function hiragana_onchat(onChat: string = "run", handler: () => void): void {
+        const workFlow = function () {
+            handler();
+        }
+        player.onChat(onChat, workFlow)
+    }
+
+
     //% blockId=hiragana_player_0
     //% block="じぶんを $to にテレポートさせる"
     export function teleport(pos: Position): void {
         return player.teleport(pos);
     }
+
+
 }
 
 /**
@@ -70,8 +83,19 @@ namespace hiragana_agent {
 /**
  * Custom blocks
  */
-//% color=#1b17fc weight=400 icon="\uf007" block="ろんり"
+//% color=#1b17fc weight=400 icon="\uf362" block="ろんり"
 namespace hiragana_ronri {
+
+    //% block="hiragana_ronri_1"
+    //% block="くりかえす $kaisuu かい"
+    //% handlerStatement
+    //% kaisuu.defl=1
+    export function hiragana_loop(kaisuu: number, handler: () => void) {
+        for (let i = 0; i < kaisuu; i++) {
+            handler();
+        }
+    }
+
 
     //% block="hiragana_ronri_0"
     //% block="もし $boolaa ならば"
