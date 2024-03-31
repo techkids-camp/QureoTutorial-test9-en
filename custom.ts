@@ -23,7 +23,7 @@ namespace agentInspectDetect {
 namespace hiragana_player {
 
     //% blockId=hiragana_player_1
-    //% block="チャットコマンド$onChat を入力した時"
+    //% block="チャットコマンド$onChat をにゅうりょくしたとき"
     //% onChat.defl=run
     export function hiragana_onchat(onChat: string = "run", handler: () => void): void {
         const workFlow = function () {
