@@ -41,6 +41,7 @@ namespace hiragana_agent {
 
     //% blockId=hiragana_agent_5
     //% block="エージェントを $pos へテレポートさせる"
+
     export function tp(pos: Position): void {
         return agent.teleport(pos,NORTH);
     }
