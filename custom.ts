@@ -15,7 +15,7 @@ namespace hiragana_player {
     }
 
     //% blockId=hiragana_player_0
-    //% block="じぶんを $to にテレポートさせる"
+    //% block="じぶんを %pos=minecraftCreatePosition にテレポートさせる"
     export function teleport(pos: Position): void {
         return player.teleport(pos);
     }
@@ -46,9 +46,9 @@ namespace hiragana_agent {
     }
 
     //% blockId=hiragana_agent_5
-    //% block="エージェントを $pos へテレポートさせる"
-    export function tp(pos: Position): void {
-        return agent.teleport(pos, NORTH);
+    //% block="エージェントを %t_pos=minecraftCreatePosition にテレポートさせる"
+    export function tp(t_pos: Position): void {
+        return agent.teleport(t_pos, NORTH);
     }
 
     //% blockId=hiragana_agent_4
