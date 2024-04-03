@@ -27,6 +27,18 @@ namespace hiragana_player {
 //% color=#D83B01 weight=400 icon="\uf1e6" block="ひらがな＿エージェント"
 namespace hiragana_agent {
 
+    //% blockId=agentInspect
+    //% block="エージェントの $direction の、$kind  "
+    export function agentInspect(kind: AgentInspection, direction: SixDirection): number {
+        return agent.inspect(kind, direction);
+    }
+
+    //% blockId=agentDetect
+    //% block="エージェントに  $direction　に、$kind  がある"
+    export function agentDetect(kind: AgentDetection, direction: SixDirection): boolean {
+        return agent.detect(kind, direction);
+    }
+
     //% blockId=hiragana_agent_5
     //% block="エージェントを $pos へテレポートさせる"
     export function tp(pos: Position): void {
@@ -40,7 +52,7 @@ namespace hiragana_agent {
     }
 
     //% blockId=hiragana_agent_3
-    //% block=" $direction をはかいする"
+    //% block=" エージェントに $direction をはかいさせる"
     export function destory(direction: SixDirection): void {
         return agent.destroy(direction);
     }
