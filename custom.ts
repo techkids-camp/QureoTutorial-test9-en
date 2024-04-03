@@ -27,6 +27,12 @@ namespace hiragana_player {
 //% color=#D83B01 weight=400 icon="\uf1e6" block="ひらがな＿エージェント"
 namespace hiragana_agent {
 
+    //% blockId=hiragana_agent_5
+    //% block="エージェントを $pos へテレポートさせる"
+    export function tp(pos: Position): void {
+        return agent.teleport(pos,NORTH);
+    }
+
     //% blockId=hiragana_agent_4
     //% block="スロットばんごう $slot をセットする"
     export function setSlot(slot: number): void {
