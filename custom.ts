@@ -87,32 +87,6 @@ namespace hiragana_agent {
 /**
  * Custom blocks
  */
-//% color=#1b17fc weight=400 icon="\uf362" block="ろんり"
-namespace hiragana_ronri {
-
-    //% block="hiragana_ronri_1"
-    //% block="くりかえす $kaisuu かい"
-    //% handlerStatement
-    //% kaisuu.defl=1
-    export function hiragana_loop(kaisuu: number, handler: () => void) {
-        for (let i = 0; i < kaisuu; i++) {
-            handler();
-        }
-    }
-
-
-    //% block="hiragana_ronri_0"
-    //% block="もし $boolaa ならば"
-    //% handlerStatement
-    //% boolaa.defl=True
-    export function onEventAsStatement(boolaa: boolean, handler: () => void) {
-        handler();
-    }
-}
-
-/**
- * Custom blocks
- */
 //% color=#D83B01 weight=400 icon="\uf04b" block="エージェントチェック"
 namespace agentInspectDetect {
     //% blockId=agentInspect_2
