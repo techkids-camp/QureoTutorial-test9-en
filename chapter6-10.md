@@ -12,10 +12,10 @@
 player.onChat("run", function () {
     for (let index = 0; index < 4; index++) {
         for (let index = 0; index < 5; index++) {
-            agent.move(UP, 1)
+            hiragana_agent.move(UP, 1)
         }
-        agent.move(DOWN, 5)
-        agent.move(LEFT, 1)
+        hiragana_agent.move(DOWN, 5)
+        hiragana_agent.move(LEFT, 1)
     }
 })
 ```
@@ -23,13 +23,13 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 4; index++) {
         for (let index = 0; index < 5; index++) {
-            agent.move(UP, 1)
+            hiragana_agent.move(UP, 1)
             if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == false) {
                 agent.place(FORWARD)
             }
         }
-        agent.move(DOWN, 5)
-        agent.move(LEFT, 1)
+        hiragana_agent.move(DOWN, 5)
+        hiragana_agent.move(LEFT, 1)
     }
 })
 ```

@@ -24,7 +24,7 @@ player.onChat("run", function () {
         if (agentInspectDetect.agentDetect(AgentDetection.Block, RIGHT) == false) {
             agent.turn(RIGHT_TURN)
         }
-        agent.move(FORWARD, 1)
+        hiragana_agent.move(FORWARD, 1)
     }
 })
 

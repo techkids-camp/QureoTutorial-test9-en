@@ -14,7 +14,7 @@ for (let index = 0; index < 4; index++) {
     
 }
 agent.place(FORWARD)
-agent.move(FORWARD, 1)
+hiragana_agent.move(FORWARD, 1)
 ```
 
 ```template

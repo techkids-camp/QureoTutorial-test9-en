@@ -20,7 +20,7 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 9; index++) {
-        agent.move(LEFT, 1)
+        hiragana_agent.move(LEFT, 1)
         if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == false) {
             agent.place(FORWARD)
         }

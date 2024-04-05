@@ -34,7 +34,7 @@ player.onChat("run", function () {
 ```ghost
 while (true) {
     agent.destroy(FORWARD)
-    agent.move(RIGHT, 1)
+    hiragana_agent.move(RIGHT, 1)
     if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
         break;
     }

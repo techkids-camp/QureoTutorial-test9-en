@@ -20,10 +20,10 @@
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
         for (let index = 0; index < 10; index++) {
-            agent.move(UP, 1)
+            hiragana_agent.move(UP, 1)
         }
-        agent.move(DOWN, 10)
-        agent.move(RIGHT, 1)
+        hiragana_agent.move(DOWN, 10)
+        hiragana_agent.move(RIGHT, 1)
     }
 })
 ```
@@ -31,13 +31,13 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
         for (let index = 0; index < 10; index++) {
-            agent.move(UP, 1)
+            hiragana_agent.move(UP, 1)
             if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
                 agent.destroy(FORWARD)
             }
         }
-        agent.move(DOWN, 10)
-        agent.move(RIGHT, 1)
+        hiragana_agent.move(DOWN, 10)
+        hiragana_agent.move(RIGHT, 1)
     }
 })
 ```

@@ -10,26 +10,26 @@
 function くうらん () {
     for (let index = 0; index < 7; index++) {
         agent.place(FORWARD)
-        agent.move(UP, 1)
+        hiragana_agent.move(UP, 1)
     }
 }
 
     agent.setSlot(1)
     くうらん()
-    agent.move(FORWARD, 2)
+    hiragana_agent.move(FORWARD, 2)
     agent.setSlot(2)
     agent.place(DOWN)
-    agent.move(FORWARD, 1)
+    hiragana_agent.move(FORWARD, 1)
     agent.setSlot(3)
     agent.place(DOWN)
-    agent.move(FORWARD, 1)
+    hiragana_agent.move(FORWARD, 1)
     agent.setSlot(4)
     agent.place(DOWN)
     agent.setSlot(5)
-    agent.move(UP, 1)
+    hiragana_agent.move(UP, 1)
     for (let index = 0; index < 3; index++) {
         agent.place(DOWN)
-        agent.move(BACK, 1)
+        hiragana_agent.move(BACK, 1)
     }
 ```
 
@@ -37,26 +37,26 @@ function くうらん () {
 function くうらん () {
     for (let index = 0; index < 7; index++) {
         agent.place(FORWARD)
-        agent.move(UP, 1)
+        hiragana_agent.move(UP, 1)
     }
 }
 
     agent.setSlot(1)
     くうらん()
-    agent.move(FORWARD, 2)
+    hiragana_agent.move(FORWARD, 2)
     agent.setSlot(2)
     agent.place(DOWN)
-    agent.move(FORWARD, 1)
+    hiragana_agent.move(FORWARD, 1)
     agent.setSlot(3)
     agent.place(DOWN)
-    agent.move(FORWARD, 1)
+    hiragana_agent.move(FORWARD, 1)
     agent.setSlot(4)
     agent.place(DOWN)
     agent.setSlot(5)
-    agent.move(UP, 1)
+    hiragana_agent.move(UP, 1)
     for (let index = 0; index < 3; index++) {
         agent.place(DOWN)
-        agent.move(BACK, 1)
+        hiragana_agent.move(BACK, 1)
     }
 
 ```
