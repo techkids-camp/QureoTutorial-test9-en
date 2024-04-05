@@ -1,7 +1,7 @@
 /**
  * Custom blocks
  */
-//% color=#1b17fc weight=400 icon="\uf007" block="ひらがな_プレイヤー"
+//% color=#0078d7 weight=400 icon="\uf007" block="ひらがな_プレイヤー"
 namespace hiragana_player {
 
     //% blockId=hiragana_player_1
@@ -28,19 +28,19 @@ namespace hiragana_player {
 namespace hiragana_agent {
 
     //% blockId=hiragana_agent_8
-    //% block="エージェントをじぶんのいちに、いどうする "
+    //% block="エージェントをじぶんのいちにいどうする "
     export function teleportToPlayer(): void {
         return agent.teleportToPlayer();
     }
 
     //% blockId=hiragana_agent_7
-    //% block="エージェントの $direction の、$kind  "
+    //% block="エージェントの $direction の　$kind  "
     export function agentInspect(kind: AgentInspection, direction: SixDirection): number {
         return agent.inspect(kind, direction);
     }
 
     //% blockId=hiragana_agent_6
-    //% block="エージェントの  $direction　に、$kind  がある"
+    //% block="エージェントの  $direction　に　$kind  がある"
     export function agentDetect(kind: AgentDetection, direction: SixDirection): boolean {
         return agent.detect(kind, direction);
     }
@@ -64,20 +64,20 @@ namespace hiragana_agent {
     }
 
     //% blockId=hiragana_agent_2
-    //% block="えーじぇんとに $direction へおかせる"
+    //% block="エージェントに $direction へおかせる"
     export function place(direction: SixDirection): void {
         return agent.place(direction);
     }
 
     //% blockId=hiragana_agent_1
-    //% block="えーじぇんとのむきを $direction にかえる"
+    //% block="エージェントのむきを $direction にかえる"
     export function turn(direction: TurnDirection): void {
         return agent.turn(direction);
     }
 
 
     //% blockID=hiragana_agent_0
-    //% block="えーじぇんとに $direction に $blocks ブロックいどうさせる"
+    //% block="エージェントに $direction に $blocks ブロックいどうさせる"
     //% blocks.defl=1
     export function move(direction: SixDirection, blocks: number): void {
         return agent.move(direction, blocks);
