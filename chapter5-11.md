@@ -12,7 +12,7 @@
 ```ghost
     player.onChat("run", function () {
         for (let index = 0; index < 4; index++) {
-            agent.move(FORWARD, 1)
+            hiragana_agent.move(FORWARD, 1)
             agent.place(FORWARD)
         }
     })

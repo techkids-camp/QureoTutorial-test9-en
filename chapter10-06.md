@@ -30,7 +30,7 @@ player.onChat("run", function () {
 player.onChat("go", function () {
     while (true) {
         agent.destroy(DOWN)
-        agent.move(DOWN, 1)
+        hiragana_agent.move(DOWN, 1)
     }
 })
 player.onChat("run", function () {

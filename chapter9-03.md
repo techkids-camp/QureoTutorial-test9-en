@@ -20,18 +20,18 @@
 ```template
 player.onChat("run", function () {
     while (true) {
-        agent.move(UP, 1)
+        hiragana_agent.move(UP, 1)
         agent.place(DOWN)
-        agent.move(FORWARD, 1)
+        hiragana_agent.move(FORWARD, 1)
     }
 })
 ```
 
 ```ghost
 while (true) {
-    agent.move(UP, 1)
+    hiragana_agent.move(UP, 1)
     agent.place(DOWN)
-    agent.move(FORWARD, 1)
+    hiragana_agent.move(FORWARD, 1)
     if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
         break;
     }

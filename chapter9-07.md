@@ -29,7 +29,7 @@ while (true) {
     agent.place(BACK)
     agent.place(LEFT)
     agent.place(RIGHT)
-    agent.move(UP, 1)
+    hiragana_agent.move(UP, 1)
     if (agentInspectDetect.agentDetect(AgentDetection.Block, UP) == true) {
         break;
     }

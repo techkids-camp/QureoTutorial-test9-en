@@ -27,10 +27,10 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 9; index++) {
         if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
-            agent.move(FORWARD, 1)
+            hiragana_agent.move(FORWARD, 1)
         } else {
             agent.destroy(DOWN)
-            agent.move(FORWARD, 1)
+            hiragana_agent.move(FORWARD, 1)
         }
     }
 })
