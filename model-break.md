@@ -9,6 +9,6 @@
 
 ```template
 agent.destroy(FORWARD)
-agent.move(UP, 1)
+hiragana_agent.move(UP, 1)
 agent.destroy(FORWARD)
 ```

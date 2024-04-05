@@ -32,9 +32,9 @@ player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
         if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
             agent.destroy(FORWARD)
-            agent.move(RIGHT, 1)
+            hiragana_agent.move(RIGHT, 1)
         } else {
-            agent.move(RIGHT, 1)
+            hiragana_agent.move(RIGHT, 1)
         }
     }
 })

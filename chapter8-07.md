@@ -20,14 +20,14 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 7; index++) {
-        agent.move(RIGHT, 1)
+        hiragana_agent.move(RIGHT, 1)
     }
 })
 ```
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 7; index++) {
-        agent.move(RIGHT, 1)
+        hiragana_agent.move(RIGHT, 1)
         if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
             agent.place(BACK)
         } else {

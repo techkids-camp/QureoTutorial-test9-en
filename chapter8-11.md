@@ -24,7 +24,7 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 11; index++) {
-        agent.move(RIGHT, 1)
+        hiragana_agent.move(RIGHT, 1)
     }
 })
 
@@ -32,11 +32,11 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 11; index++) {
-        agent.move(RIGHT, 1)
+        hiragana_agent.move(RIGHT, 1)
         if (agentInspectDetect.agentInspect(AgentInspection.Block, RIGHT) == COBBLESTONE) {
-            agent.move(DOWN, 1)
-            agent.move(RIGHT, 2)
-            agent.move(UP, 1)
+            hiragana_agent.move(DOWN, 1)
+            hiragana_agent.move(RIGHT, 2)
+            hiragana_agent.move(UP, 1)
         } else {
             agent.destroy(RIGHT)
         }

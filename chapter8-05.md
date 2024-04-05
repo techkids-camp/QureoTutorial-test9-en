@@ -22,14 +22,14 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 6; index++) {
-        agent.move(LEFT, 1)
+        hiragana_agent.move(LEFT, 1)
     }
 })
 ```
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 6; index++) {
-        agent.move(LEFT, 1)
+        hiragana_agent.move(LEFT, 1)
         if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
             agent.destroy(FORWARD)
         } else {

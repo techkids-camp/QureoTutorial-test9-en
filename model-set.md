@@ -10,9 +10,9 @@
 ```template
 for (let index = 0; index < 2; index++) {
     agent.place(FORWARD)
-    agent.move(UP, 1)
-    agent.move(FORWARD, 1)
+    hiragana_agent.move(UP, 1)
+    hiragana_agent.move(FORWARD, 1)
 }
-agent.move(UP, 1)
-agent.move(FORWARD, 1)
+hiragana_agent.move(UP, 1)
+hiragana_agent.move(FORWARD, 1)
 ```

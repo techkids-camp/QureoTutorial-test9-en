@@ -8,5 +8,5 @@
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしてプログラムをうごかしてみよう！
 
 ```template
-agent.move(FORWARD, 7)
+hiragana_agent.move(FORWARD, 7)
 ```

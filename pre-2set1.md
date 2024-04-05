@@ -14,12 +14,12 @@ for (let index = 0; index < 4; index++) {
     
 }
 agent.place(FORWARD)
-agent.move(FORWARD, 1)
+hiragana_agent.move(FORWARD, 1)
 ```
 
 ```template
 for (let index = 0; index < 1; index++) {
     agent.place(FORWARD)
-    agent.move(DOWN, 1)
+    hiragana_agent.move(DOWN, 1)
 }
 ```

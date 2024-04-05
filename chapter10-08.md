@@ -32,8 +32,8 @@ player.onChat("run", function () {
 player.onChat("go", function () {
     while (true) {
         agent.place(FORWARD)
-        agent.move(UP, 1)
-        agent.move(FORWARD, 1)
+        hiragana_agent.move(UP, 1)
+        hiragana_agent.move(FORWARD, 1)
     }
 })
 player.onChat("run", function () {
