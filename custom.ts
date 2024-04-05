@@ -28,7 +28,7 @@ namespace hiragana_player {
 namespace hiragana_agent {
 
     //% blockId=hiragana_agent_8
-    //% block="エージェントをプレイヤーのいちに、いどうする "
+    //% block="エージェントをじぶんのいちに、いどうする "
     export function teleportToPlayer(): void {
         return agent.teleportToPlayer();
     }
@@ -40,7 +40,7 @@ namespace hiragana_agent {
     }
 
     //% blockId=hiragana_agent_6
-    //% block="エージェントに  $direction　に、$kind  がある"
+    //% block="エージェントの  $direction　に、$kind  がある"
     export function agentDetect(kind: AgentDetection, direction: SixDirection): boolean {
         return agent.detect(kind, direction);
     }
@@ -77,7 +77,7 @@ namespace hiragana_agent {
 
 
     //% blockID=hiragana_agent_0
-    //% block="えーじぇんとに $direction へ $blocks だけうごかす"
+    //% block="えーじぇんとに $direction に $blocks ブロックいどうさせる"
     //% blocks.defl=1
     export function move(direction: SixDirection, blocks: number): void {
         return agent.move(direction, blocks);
