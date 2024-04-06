@@ -35,7 +35,7 @@ namespace hiragana_agent {
 
     //% blockId=hiragana_agent_7
     //% block="エージェントの $direction の　$kind  "
-    export function agentInspect(kind: AgentInspection, direction: SixDirection): number {
+    export function inspect(kind: AgentInspection, direction: SixDirection): number {
         return agent.inspect(kind, direction);
     }
 
