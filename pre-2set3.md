@@ -13,7 +13,7 @@
 for (let index = 0; index < 4; index++) {
     
 }
-agent.place(FORWARD)
+hiragana_agent.place(FORWARD)
 hiragana_agent.move(FORWARD, 1)
 ```
 
@@ -21,6 +21,6 @@ hiragana_agent.move(FORWARD, 1)
 for (let index = 0; index < 1; index++) {
     hiragana_agent.move(UP, 1)
     hiragana_agent.move(FORWARD, 1)
-    agent.place(DOWN)
+    hiragana_agent.place(DOWN)
 }
 ```

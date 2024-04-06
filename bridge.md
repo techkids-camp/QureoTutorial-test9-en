@@ -14,7 +14,7 @@
         }
     })
     hiragana_agent.move(FORWARD, 1)
-    agent.place(FORWARD)
+    hiragana_agent.place(FORWARD)
     agent.destroy(FORWARD)
 ```
 

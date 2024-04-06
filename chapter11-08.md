@@ -26,7 +26,7 @@ player.onChat("run", function () {
     agent.getPosition(),
     pos(0, 0, 0)
     ), WEST)
-    agent.place(FORWARD)
+    hiragana_agent.place(FORWARD)
 })
 
 ```

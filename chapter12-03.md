@@ -9,12 +9,12 @@ player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
         hiragana_agent.move(FORWARD, 1)
         if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == false) {
-            agent.place(DOWN)
+            hiragana_agent.place(DOWN)
         }
     }
     while (true) {
         if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == GRASS) {
-            agent.place(DOWN)
+            hiragana_agent.place(DOWN)
         }
     }
     hiragana_agent.turn(LEFT_TURN)

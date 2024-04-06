@@ -32,7 +32,7 @@ player.onChat("run", function () {
 player.onChat("go", function () {
     while (true) {
         hiragana_agent.move(FORWARD, 1)
-        agent.place(DOWN)
+        hiragana_agent.place(DOWN)
     }
 })
 player.onChat("run", function () {

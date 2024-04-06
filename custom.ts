@@ -59,7 +59,7 @@ namespace hiragana_agent {
 
     //% blockId=hiragana_agent_3
     //% block=" エージェントに $direction をはかいさせる"
-    export function destory(direction: SixDirection): void {
+    export function destroy(direction: SixDirection): void {
         return agent.destroy(direction);
     }
 

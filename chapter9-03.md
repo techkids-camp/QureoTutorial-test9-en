@@ -21,7 +21,7 @@
 player.onChat("run", function () {
     while (true) {
         hiragana_agent.move(UP, 1)
-        agent.place(DOWN)
+        hiragana_agent.place(DOWN)
         hiragana_agent.move(FORWARD, 1)
     }
 })
@@ -30,7 +30,7 @@ player.onChat("run", function () {
 ```ghost
 while (true) {
     hiragana_agent.move(UP, 1)
-    agent.place(DOWN)
+    hiragana_agent.place(DOWN)
     hiragana_agent.move(FORWARD, 1)
     if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
         break;
