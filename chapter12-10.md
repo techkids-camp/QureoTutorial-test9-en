@@ -27,7 +27,7 @@ player.onChat("run", function () {
         }
         hiragana_agent.turn(LEFT_TURN)
     }
-    agent.teleportToPlayer()
+    hiragana_agent.teleportToPlayer()
 })
 
 ```

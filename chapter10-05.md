@@ -35,7 +35,7 @@ player.onChat("go", function () {
     }
 })
 player.onChat("run", function () {
-    agent.teleportToPlayer()
+    hiragana_agent.teleportToPlayer()
 })
 
 ```
