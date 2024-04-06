@@ -41,7 +41,7 @@ namespace hiragana_agent {
 
     //% blockId=hiragana_agent_6
     //% block="エージェントの  $direction　に　$kind  がある"
-    export function agentDetect(kind: AgentDetection, direction: SixDirection): boolean {
+    export function detect(kind: AgentDetection, direction: SixDirection): boolean {
         return agent.detect(kind, direction);
     }
 
