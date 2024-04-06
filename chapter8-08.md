@@ -29,7 +29,7 @@ player.onChat("run", function () {
         if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
             hiragana_agent.move(FORWARD, 1)
         } else {
-            agent.destroy(DOWN)
+            hiragana_agent.destroy(DOWN)
             hiragana_agent.move(FORWARD, 1)
         }
     }

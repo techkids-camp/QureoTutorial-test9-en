@@ -38,7 +38,7 @@ player.onChat("run", function () {
             hiragana_agent.move(RIGHT, 2)
             hiragana_agent.move(UP, 1)
         } else {
-            agent.destroy(RIGHT)
+            hiragana_agent.destroy(RIGHT)
         }
     }
 })

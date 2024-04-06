@@ -29,9 +29,9 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("go", function () {
     while (true) {
-        agent.destroy(FORWARD)
+        hiragana_agent.destroy(FORWARD)
         hiragana_agent.move(FORWARD, 1)
-        agent.destroy(UP)
+        hiragana_agent.destroy(UP)
     }
 })
 player.onChat("run", function () {

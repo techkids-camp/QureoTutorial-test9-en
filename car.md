@@ -14,12 +14,12 @@ function くうらん () {
     hiragana_agent.move(DOWN, 1)
     agent.setSlot(2)
     hiragana_agent.place(UP)
-    agent.destroy(FORWARD)
+    hiragana_agent.destroy(FORWARD)
     agent.collectAll()
     hiragana_agent.move(FORWARD, 1)
 }
 
-    agent.destroy(DOWN)
+    hiragana_agent.destroy(DOWN)
     hiragana_agent.move(DOWN, 1)
     for (let index = 0; index < 6; index++) {
         for (let index = 0; index < 3; index++) {
@@ -31,7 +31,7 @@ function くうらん () {
             hiragana_agent.place(FORWARD)
         }
         hiragana_agent.turn(RIGHT_TURN)
-        agent.destroy(FORWARD)
+        hiragana_agent.destroy(FORWARD)
         hiragana_agent.move(FORWARD, 1)
         hiragana_agent.turn(RIGHT_TURN)
         hiragana_agent.turn(RIGHT_TURN)
@@ -54,14 +54,14 @@ function くうらん () {
     hiragana_agent.move(DOWN, 1)
     agent.setSlot(4)
     for (let index = 0; index < 2; index++) {
-        agent.destroy(FORWARD)
+        hiragana_agent.destroy(FORWARD)
         hiragana_agent.place(FORWARD)
         hiragana_agent.move(UP, 2)
         hiragana_agent.move(FORWARD, 4)
         hiragana_agent.turn(RIGHT_TURN)
         hiragana_agent.turn(RIGHT_TURN)
         hiragana_agent.move(DOWN, 2)
-        agent.destroy(FORWARD)
+        hiragana_agent.destroy(FORWARD)
         hiragana_agent.place(FORWARD)
         hiragana_agent.move(LEFT, 3)
     }
@@ -84,7 +84,7 @@ function くうらん () {
     }
     hiragana_agent.move(UP, 1)
     hiragana_agent.move(FORWARD, 2)
-    agent.destroy(DOWN)
+    hiragana_agent.destroy(DOWN)
     agent.setSlot(6)
     hiragana_agent.place(DOWN)
     hiragana_agent.move(FORWARD, 1)
@@ -110,12 +110,12 @@ function くうらん () {
     hiragana_agent.move(DOWN, 1)
     agent.setSlot(2)
     hiragana_agent.place(UP)
-    agent.destroy(FORWARD)
+    hiragana_agent.destroy(FORWARD)
     agent.collectAll()
     hiragana_agent.move(FORWARD, 1)
 }
 
-    agent.destroy(DOWN)
+    hiragana_agent.destroy(DOWN)
     hiragana_agent.move(DOWN, 1)
     for (let index = 0; index < 6; index++) {
         for (let index = 0; index < 3; index++) {
@@ -127,7 +127,7 @@ function くうらん () {
             hiragana_agent.place(FORWARD)
         }
         hiragana_agent.turn(RIGHT_TURN)
-        agent.destroy(FORWARD)
+        hiragana_agent.destroy(FORWARD)
         hiragana_agent.move(FORWARD, 1)
         hiragana_agent.turn(RIGHT_TURN)
         hiragana_agent.turn(RIGHT_TURN)
@@ -150,14 +150,14 @@ function くうらん () {
     hiragana_agent.move(DOWN, 1)
     agent.setSlot(4)
     for (let index = 0; index < 2; index++) {
-        agent.destroy(FORWARD)
+        hiragana_agent.destroy(FORWARD)
         hiragana_agent.place(FORWARD)
         hiragana_agent.move(UP, 2)
         hiragana_agent.move(FORWARD, 4)
         hiragana_agent.turn(RIGHT_TURN)
         hiragana_agent.turn(RIGHT_TURN)
         hiragana_agent.move(DOWN, 2)
-        agent.destroy(FORWARD)
+        hiragana_agent.destroy(FORWARD)
         hiragana_agent.place(FORWARD)
         hiragana_agent.move(LEFT, 3)
     }
@@ -180,7 +180,7 @@ function くうらん () {
     }
     hiragana_agent.move(UP, 1)
     hiragana_agent.move(FORWARD, 2)
-    agent.destroy(DOWN)
+    hiragana_agent.destroy(DOWN)
     agent.setSlot(6)
     hiragana_agent.place(DOWN)
     hiragana_agent.move(FORWARD, 1)

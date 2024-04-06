@@ -15,7 +15,7 @@
     })
     hiragana_agent.move(FORWARD, 1)
     hiragana_agent.place(FORWARD)
-    agent.destroy(FORWARD)
+    hiragana_agent.destroy(FORWARD)
 ```
 
 

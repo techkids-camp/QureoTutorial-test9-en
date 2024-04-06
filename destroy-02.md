@@ -15,7 +15,7 @@
 
 ```ghost
     player.onChat("run", function () {
-        agent.destroy(FORWARD)
+        hiragana_agent.destroy(FORWARD)
     })
 ```
 
