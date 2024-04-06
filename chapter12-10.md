@@ -25,7 +25,7 @@ player.onChat("run", function () {
         if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == GRASS) {
             agent.destroy(FORWARD)
         }
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
     }
     agent.teleportToPlayer()
 })

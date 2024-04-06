@@ -17,7 +17,7 @@ player.onChat("run", function () {
             agent.destroy(FORWARD)
         }
     }
-    agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
 })
 
 ```

@@ -25,7 +25,7 @@ player.onChat("run", function () {
     while (true) {
         if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == GRASS) {
         }
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
     }
 })
 

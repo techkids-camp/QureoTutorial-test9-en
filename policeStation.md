@@ -12,14 +12,14 @@ function くうらん2 () {
         agent.place(DOWN)
         hiragana_agent.move(FORWARD, 1)
     }
-    agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
 }
 function くうらん () {
     for (let index = 0; index < 4; index++) {
         agent.place(DOWN)
         hiragana_agent.move(FORWARD, 1)
     }
-    agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
 }
 
     hiragana_agent.move(FORWARD, 3)
@@ -47,19 +47,19 @@ function くうらん () {
         }
     }
     hiragana_agent.move(FORWARD, 2)
-    agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
     hiragana_agent.move(FORWARD, 4)
     for (let index = 0; index < 5; index++) {
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
         agent.place(FORWARD)
-        agent.turn(LEFT_TURN)
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
         agent.place(FORWARD)
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
         hiragana_agent.move(BACK, 1)
         agent.place(FORWARD)
     }
-    agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
     hiragana_agent.move(FORWARD, 2)
     hiragana_agent.move(DOWN, 2)
     for (let index = 0; index < 2; index++) {
@@ -82,14 +82,14 @@ function くうらん2 () {
         agent.place(DOWN)
         hiragana_agent.move(FORWARD, 1)
     }
-    agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
 }
 function くうらん () {
     for (let index = 0; index < 4; index++) {
         agent.place(DOWN)
         hiragana_agent.move(FORWARD, 1)
     }
-    agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
 }
 
     hiragana_agent.move(FORWARD, 3)
@@ -117,19 +117,19 @@ function くうらん () {
         }
     }
     hiragana_agent.move(FORWARD, 2)
-    agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
     hiragana_agent.move(FORWARD, 4)
     for (let index = 0; index < 5; index++) {
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
         agent.place(FORWARD)
-        agent.turn(LEFT_TURN)
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
         agent.place(FORWARD)
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
         hiragana_agent.move(BACK, 1)
         agent.place(FORWARD)
     }
-    agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
     hiragana_agent.move(FORWARD, 2)
     hiragana_agent.move(DOWN, 2)
     for (let index = 0; index < 2; index++) {
