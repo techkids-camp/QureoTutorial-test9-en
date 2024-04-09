@@ -25,9 +25,9 @@ player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
         hiragana_agent.move(FORWARD, 1)
         if (agentInspectDetect.agentDetect(AgentDetection.Block, RIGHT) == false) {
-            agent.place(RIGHT)
+            hiragana_agent.place(RIGHT)
         } else {
-            agent.place(LEFT)
+            hiragana_agent.place(LEFT)
         }
     }
 })

@@ -22,7 +22,7 @@ player.onChat("run", function () {
     for (let index = 0; index < 8; index++) {
         hiragana_agent.move(FORWARD, 1)
         if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == false) {
-            agent.place(DOWN)
+            hiragana_agent.place(DOWN)
         }
     }
 })

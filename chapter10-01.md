@@ -10,7 +10,7 @@
 ```template
 player.onChat("go", function () {
     while (true) {
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
     }
 })
 player.onChat("run", function () {

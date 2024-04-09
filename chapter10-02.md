@@ -14,8 +14,8 @@
 ```template
 player.onChat("go", function () {
     while (true) {
-        agent.place(FORWARD)
-        agent.turn(LEFT_TURN)
+        hiragana_agent.place(FORWARD)
+        hiragana_agent.turn(LEFT_TURN)
     }
 })
 player.onChat("run", function () {
@@ -26,8 +26,8 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("go", function () {
     while (true) {
-        agent.place(FORWARD)
-        agent.turn(LEFT_TURN)
+        hiragana_agent.place(FORWARD)
+        hiragana_agent.turn(LEFT_TURN)
     }
 })
 player.onChat("run", function () {

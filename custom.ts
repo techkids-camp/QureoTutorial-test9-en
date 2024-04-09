@@ -35,19 +35,19 @@ namespace hiragana_agent {
 
     //% blockId=hiragana_agent_7
     //% block="エージェントの $direction の　$kind  "
-    export function agentInspect(kind: AgentInspection, direction: SixDirection): number {
+    export function inspect(kind: AgentInspection, direction: SixDirection): number {
         return agent.inspect(kind, direction);
     }
 
     //% blockId=hiragana_agent_6
     //% block="エージェントの  $direction　に　$kind  がある"
-    export function agentDetect(kind: AgentDetection, direction: SixDirection): boolean {
+    export function detect(kind: AgentDetection, direction: SixDirection): boolean {
         return agent.detect(kind, direction);
     }
 
     //% blockId=hiragana_agent_5
     //% block="エージェントを %t_pos=minecraftCreatePosition にテレポートさせる"
-    export function tp(t_pos: Position): void {
+    export function teleport(t_pos: Position): void {
         return agent.teleport(t_pos, NORTH);
     }
 
@@ -59,7 +59,7 @@ namespace hiragana_agent {
 
     //% blockId=hiragana_agent_3
     //% block=" エージェントに $direction をはかいさせる"
-    export function destory(direction: SixDirection): void {
+    export function destroy(direction: SixDirection): void {
         return agent.destroy(direction);
     }
 

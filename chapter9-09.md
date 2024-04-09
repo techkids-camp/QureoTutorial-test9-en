@@ -34,8 +34,8 @@ player.onChat("run", function () {
 
 ```ghost
 while (true) {
-    agent.destroy(FORWARD)
-    agent.destroy(DOWN)
+    hiragana_agent.destroy(FORWARD)
+    hiragana_agent.destroy(DOWN)
     hiragana_agent.move(FORWARD, 1)
     if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == false) {
         break;

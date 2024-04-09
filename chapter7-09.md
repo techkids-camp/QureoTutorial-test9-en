@@ -34,7 +34,7 @@ player.onChat("run", function () {
             hiragana_agent.move(LEFT, 1)
         }
         if (agentInspectDetect.agentInspect(AgentInspection.Block, UP) == PLANKS_OAK) {
-            agent.destroy(UP)
+            hiragana_agent.destroy(UP)
         }
     }
 })

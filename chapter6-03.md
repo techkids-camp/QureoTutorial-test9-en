@@ -10,7 +10,7 @@
 ```template
 player.onChat("run", function () {
     if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == false) {
-        agent.place(FORWARD)
+        hiragana_agent.place(FORWARD)
     }
 })
 ```
