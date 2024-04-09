@@ -6,7 +6,7 @@
 
 ```template
 player.onChat("run", function () {
-    agent.teleport(positions.add(
+    hiragana_agent.teleport(positions.add(
     agent.getPosition(),
     pos(0, 0, 0)
     ), SOUTH)
@@ -17,7 +17,7 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
-        agent.move(FORWARD, 1)
+        hiragana_agent.move(FORWARD, 1)
         if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == false) {
            
         }
@@ -25,7 +25,7 @@ player.onChat("run", function () {
     while (true) {
         if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == GRASS) {
         }
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
     }
 })
 

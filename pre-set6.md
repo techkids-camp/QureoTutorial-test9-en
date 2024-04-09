@@ -13,13 +13,13 @@
 for (let index = 0; index < 4; index++) {
     
 }
-agent.place(FORWARD)
-agent.move(FORWARD, 1)
+hiragana_agent.place(FORWARD)
+hiragana_agent.move(FORWARD, 1)
 ```
 
 ```template
 for (let index = 0; index < 0; index++) {
     
 }
-agent.place(FORWARD)
+hiragana_agent.place(FORWARD)
 ```

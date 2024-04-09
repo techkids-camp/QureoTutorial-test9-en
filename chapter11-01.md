@@ -6,7 +6,7 @@
 
 ```template
 player.onChat("run", function () {
-    agent.teleport(positions.add(
+    hiragana_agent.teleport(positions.add(
     agent.getPosition(),
     pos(5, 0, 0)
     ), WEST)

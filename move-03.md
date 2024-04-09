@@ -12,7 +12,7 @@
 さいごにみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしてプログラムをうごかしてみよう！
 
 ```ghost
-agent.move(FORWARD, 1)
+hiragana_agent.move(FORWARD, 1)
 ```
 
 ```template

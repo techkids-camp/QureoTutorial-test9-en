@@ -33,14 +33,14 @@ player.onChat("run", function () {
 player.onChat("go", function () {
     while (true) {
         for (let index = 0; index < 4; index++) {
-            agent.place(FORWARD)
-            agent.move(UP, 1)
+            hiragana_agent.place(FORWARD)
+            hiragana_agent.move(UP, 1)
         }
-        agent.move(DOWN, 4)
+        hiragana_agent.move(DOWN, 4)
     }
 })
 player.onChat("run", function () {
-    agent.teleportToPlayer()
+    hiragana_agent.teleportToPlayer()
 })
 
 ```

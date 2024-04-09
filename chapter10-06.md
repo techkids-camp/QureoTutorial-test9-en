@@ -29,12 +29,12 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("go", function () {
     while (true) {
-        agent.destroy(DOWN)
-        agent.move(DOWN, 1)
+        hiragana_agent.destroy(DOWN)
+        hiragana_agent.move(DOWN, 1)
     }
 })
 player.onChat("run", function () {
-    agent.teleportToPlayer()
+    hiragana_agent.teleportToPlayer()
 })
 
 ```

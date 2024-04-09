@@ -29,10 +29,10 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
         if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
-            agent.destroy(FORWARD)
-            agent.move(UP, 1)
+            hiragana_agent.destroy(FORWARD)
+            hiragana_agent.move(UP, 1)
         } else {
-            agent.move(UP, 1)
+            hiragana_agent.move(UP, 1)
         }
     }
 })

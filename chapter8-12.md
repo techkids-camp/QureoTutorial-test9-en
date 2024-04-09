@@ -35,14 +35,14 @@ player.onChat("run", function () {
     for (let index = 0; index < 4; index++) {
         for (let index = 0; index < 4; index++) {
             if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
-                agent.move(FORWARD, 1)
+                hiragana_agent.move(FORWARD, 1)
             } else {
-                agent.destroy(DOWN)
-                agent.move(FORWARD, 1)
+                hiragana_agent.destroy(DOWN)
+                hiragana_agent.move(FORWARD, 1)
             }
         }
-        agent.move(BACK, 4)
-        agent.move(RIGHT, 1)
+        hiragana_agent.move(BACK, 4)
+        hiragana_agent.move(RIGHT, 1)
     }
 })
 ```

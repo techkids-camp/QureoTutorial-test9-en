@@ -10,11 +10,11 @@
 ```template
 player.onChat("go", function () {
     while (true) {
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
     }
 })
 player.onChat("run", function () {
-    agent.move(UP, 1)
+    hiragana_agent.move(UP, 1)
 })
 
 ```

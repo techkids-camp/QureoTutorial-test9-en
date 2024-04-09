@@ -17,16 +17,16 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
-        agent.move(LEFT, 1)
+        hiragana_agent.move(LEFT, 1)
     }
 })
 ```
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
-        agent.move(LEFT, 1)
+        hiragana_agent.move(LEFT, 1)
         if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
-            agent.destroy(FORWARD)
+            hiragana_agent.destroy(FORWARD)
         }
     }
 })

@@ -16,7 +16,7 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
-        agent.move(UP, 1)
+        hiragana_agent.move(UP, 1)
         if (agentInspectDetect.agentInspect(AgentInspection.Block, UP) == COBBLESTONE) {
         }
         if (agentInspectDetect.agentInspect(AgentInspection.Block, UP) == PLANKS_OAK) {
@@ -27,14 +27,14 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
-        agent.move(UP, 1)
+        hiragana_agent.move(UP, 1)
         if (agentInspectDetect.agentInspect(AgentInspection.Block, UP) == COBBLESTONE) {
-            agent.move(RIGHT, 1)
-            agent.move(UP, 2)
-            agent.move(LEFT, 1)
+            hiragana_agent.move(RIGHT, 1)
+            hiragana_agent.move(UP, 2)
+            hiragana_agent.move(LEFT, 1)
         }
         if (agentInspectDetect.agentInspect(AgentInspection.Block, UP) == PLANKS_OAK) {
-            agent.destroy(UP)
+            hiragana_agent.destroy(UP)
         }
     }
 })
