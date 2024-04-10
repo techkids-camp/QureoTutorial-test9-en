@@ -1,29 +1,6 @@
 /**
  * Custom blocks
  */
-//% color=#0078d7 weight=400 icon="\uf007" block="ひらがな_プレイヤー"
-namespace hiragana_player {
-
-    //% blockId=hiragana_player_1
-    //% block="チャットコマンド$onChat をにゅうりょくしたとき"
-    //% onChat.defl=run
-    export function hiragana_onchat(onChat: string = "run", handler: () => void): void {
-        const workFlow = function () {
-            handler();
-        }
-        player.onChat(onChat, workFlow)
-    }
-
-    //% blockId=hiragana_player_0
-    //% block="じぶんを %pos=minecraftCreatePosition にテレポートさせる"
-    export function teleport(pos: Position): void {
-        return player.teleport(pos);
-    }
-}
-
-/**
- * Custom blocks
- */
 //% color=#D83B01 weight=400 icon="\uf1e6" block="ひらがな＿エージェント"
 namespace hiragana_agent {
 
