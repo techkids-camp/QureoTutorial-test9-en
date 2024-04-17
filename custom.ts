@@ -25,9 +25,7 @@ namespace hiragana_agent {
     //% blockId=hiragana_agent_5
     //% block="エージェントをいまのいちから %t_pos=minecraftCreatePosition にテレポートさせる"
     export function teleport(t_pos: Position): void {
-        let p_pos = player.Position
-        let tp_pos = p_pos + t_pos
-        return agent.teleport(tp_pos, NORTH);
+        return agent.teleport(positions.add(agent.getPosition(),t_pos), NORTH);
     }
 
     //% blockId=hiragana_agent_4
