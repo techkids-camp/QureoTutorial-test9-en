@@ -25,7 +25,20 @@ namespace hiragana_agent {
     //% blockId=hiragana_agent_5
     //% block="エージェントをいまのいちから %t_pos=minecraftCreatePosition にテレポートさせる"
     export function teleport(t_pos: Position): void {
-        return agent.teleport(positions.add(agent.getPosition(),t_pos), NORTH);
+        let agentTrune: CompassDirection
+        let agentOrient = agent.getOrientation()
+        if (agentOrient == 0){
+            agentTrune = SOUTH
+        }else if (agentOrient == -180){
+            agentTrune = NORTH
+        }else if (agentOrient == -90){
+            agentTrune = EAST
+        }else if (agentOrient == 90){
+            agentTrune = WEST
+        } else {
+            agentTrune = SOUTH
+        }
+        return agent.teleport(positions.add(agent.getPosition(),t_pos), agentTrune);
     }
 
     //% blockId=hiragana_agent_4
