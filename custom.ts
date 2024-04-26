@@ -80,7 +80,7 @@ namespace hiragana_agent {
 //% color=#D83B01 weight=400 icon="\uf04b" block="エージェントチェック"
 namespace agentInspectDetect {
     //% blockId=agentInspect_2
-    //% block="エージェントの $direction の $kind ブロック"
+    //% block="エージェントの $direction の $kind "
     export function agentInspect(kind: AgentInspection, direction: SixDirection): number {
         return agent.inspect(kind, direction);
     }
