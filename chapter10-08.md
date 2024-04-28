@@ -9,11 +9,11 @@
 
 ``||loop.もし真ならくりかえし||``
 
-``||agent.エージェントに◯へ置かせる||``
+``||agent.エージェントに◯におかせる||``
 
-``||agent.エージェントを◯に◯ブロック移動させる||``
+``||agent.エージェントを◯に◯ブロックいどうさせる||``
 
-``||agent.エージェントを自分の位置にもどす||``
+``||agent.エージェントをじぶんのいちにもどす||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてgoとrunをいれてプログラムをうごかしてみよう！
 

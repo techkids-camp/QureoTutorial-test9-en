@@ -7,7 +7,7 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントを自分の位置にもどす||``
+``||agent.エージェントをじぶんのいちにもどす||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてgoとrunをいれてプログラムをうごかしてみよう！
 
