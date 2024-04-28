@@ -30,7 +30,7 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
             hiragana_agent.destroy(FORWARD)
             hiragana_agent.move(RIGHT, 1)
         } else {

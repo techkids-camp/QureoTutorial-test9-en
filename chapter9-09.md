@@ -37,7 +37,7 @@ while (true) {
     hiragana_agent.destroy(FORWARD)
     hiragana_agent.destroy(DOWN)
     hiragana_agent.move(FORWARD, 1)
-    if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == false) {
+    if (hiragana_agent.detect(AgentDetection.Block, FORWARD) == false) {
         break;
     }
 }

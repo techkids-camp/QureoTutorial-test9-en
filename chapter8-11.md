@@ -33,7 +33,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 11; index++) {
         hiragana_agent.move(RIGHT, 1)
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, RIGHT) == COBBLESTONE) {
+        if (hiragana_agent.inspect(AgentInspection.Block, RIGHT) == COBBLESTONE) {
             hiragana_agent.move(DOWN, 1)
             hiragana_agent.move(RIGHT, 2)
             hiragana_agent.move(UP, 1)

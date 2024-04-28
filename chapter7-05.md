@@ -27,10 +27,10 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 15; index++) {
         hiragana_agent.move(FORWARD, 1)
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
+        if (hiragana_agent.inspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
             hiragana_agent.turn(LEFT_TURN)
         }
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == PLANKS_OAK) {
+        if (hiragana_agent.inspect(AgentInspection.Block, DOWN) == PLANKS_OAK) {
             hiragana_agent.turn(RIGHT_TURN)
         }
     }

@@ -32,7 +32,7 @@ while (true) {
     hiragana_agent.move(UP, 1)
     hiragana_agent.place(DOWN)
     hiragana_agent.move(FORWARD, 1)
-    if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
+    if (hiragana_agent.detect(AgentDetection.Block, FORWARD) == true) {
         break;
     }
 }

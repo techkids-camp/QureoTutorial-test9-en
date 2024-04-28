@@ -13,7 +13,7 @@
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
         hiragana_agent.move(FORWARD, 1)
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, RIGHT) == false) {
+        if (hiragana_agent.detect(AgentDetection.Block, RIGHT) == false) {
         } else {
         }
     }
@@ -24,7 +24,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
         hiragana_agent.move(FORWARD, 1)
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, RIGHT) == false) {
+        if (hiragana_agent.detect(AgentDetection.Block, RIGHT) == false) {
             hiragana_agent.place(RIGHT)
         } else {
             hiragana_agent.place(LEFT)

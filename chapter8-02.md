@@ -15,7 +15,7 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 5; index++) {
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == true) {
+        if (hiragana_agent.detect(AgentDetection.Block, DOWN) == true) {
         } else {
         }
     }
@@ -24,7 +24,7 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 5; index++) {
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == true) {
+        if (hiragana_agent.detect(AgentDetection.Block, DOWN) == true) {
             hiragana_agent.destroy(DOWN)
             hiragana_agent.move(FORWARD, 1)
         } else {

@@ -15,7 +15,7 @@
 ```template
 player.onChat("run", function () {
     while (true) {
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, UP) == true) {
+        if (hiragana_agent.detect(AgentDetection.Block, UP) == true) {
             break;
         }
     }
@@ -26,7 +26,7 @@ player.onChat("run", function () {
 while (true) {
     hiragana_agent.place(FORWARD)
     hiragana_agent.move(UP, 1)
-    if (agentInspectDetect.agentDetect(AgentDetection.Block, UP) == true) {
+    if (hiragana_agent.detect(AgentDetection.Block, UP) == true) {
         break;
     }
 }

@@ -5,7 +5,7 @@
 namespace hiragana_agent {
 
     //% blockId=hiragana_agent_8
-    //% block="エージェントをじぶんのいちにいどうする "
+    //% block="エージェントをじぶんのいちにもどす"
     export function teleportToPlayer(): void {
         return agent.teleportToPlayer();
     }
@@ -23,7 +23,7 @@ namespace hiragana_agent {
     }
 
     //% blockId=hiragana_agent_5
-    //% block="エージェントをいまのいちから %t_pos=minecraftCreatePosition にテレポートさせる"
+    //% block="エージェントをいまのいちから %t_pos=minecraftCreatePosition へテレポートさせる"
     export function teleport(t_pos: Position): void {
         let agentTrune: CompassDirection
         let agentOrient = agent.getOrientation()
@@ -71,23 +71,5 @@ namespace hiragana_agent {
     //% blocks.defl=1
     export function move(direction: SixDirection, blocks: number): void {
         return agent.move(direction, blocks);
-    }
-}
-
-/**
- * Custom blocks
- */
-//% color=#D83B01 weight=400 icon="\uf04b" block="エージェントチェック"
-namespace agentInspectDetect {
-    //% blockId=agentInspect_2
-    //% block="エージェントの $direction の $kind "
-    export function agentInspect(kind: AgentInspection, direction: SixDirection): number {
-        return agent.inspect(kind, direction);
-    }
-
-    //% blockId=agentDetect_1
-    //% block="エージェントの $direction に $kind がある"
-    export function agentDetect(kind: AgentDetection, direction: SixDirection): boolean {
-        return agent.detect(kind, direction);
     }
 }

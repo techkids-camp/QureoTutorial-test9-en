@@ -9,7 +9,7 @@
 
 ```template
 player.onChat("run", function () {
-    if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == GOLD_BLOCK) {
+    if (hiragana_agent.inspect(AgentInspection.Block, DOWN) == GOLD_BLOCK) {
         hiragana_agent.turn(LEFT_TURN)
     }
 })

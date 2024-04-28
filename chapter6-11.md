@@ -18,10 +18,10 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 20; index++) {
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, LEFT) == false) {
+        if (hiragana_agent.detect(AgentDetection.Block, LEFT) == false) {
             hiragana_agent.turn(LEFT_TURN)
         }
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, RIGHT) == false) {
+        if (hiragana_agent.detect(AgentDetection.Block, RIGHT) == false) {
             hiragana_agent.turn(RIGHT_TURN)
         }
         hiragana_agent.move(FORWARD, 1)

@@ -18,7 +18,7 @@
 player.onChat("run", function () {
     for (let index = 0; index < 8; index++) {
         hiragana_agent.move(FORWARD, 1)
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == COBBLESTONE) {
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == COBBLESTONE) {
         } else {
         }
     }
@@ -29,7 +29,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 8; index++) {
         hiragana_agent.move(FORWARD, 1)
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == COBBLESTONE) {
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == COBBLESTONE) {
             hiragana_agent.move(UP, 1)
             hiragana_agent.move(FORWARD, 2)
             hiragana_agent.move(DOWN, 1)

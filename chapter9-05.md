@@ -16,7 +16,7 @@
 ```template
 player.onChat("run", function () {
     while (true) {
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
             break;
         }
     }
@@ -28,7 +28,7 @@ player.onChat("run", function () {
 while (true) {
     hiragana_agent.destroy(UP)
     hiragana_agent.move(UP, 1)
-    if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
+    if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
         break;
     }
 }

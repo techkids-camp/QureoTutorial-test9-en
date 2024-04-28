@@ -30,7 +30,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 6; index++) {
         hiragana_agent.move(LEFT, 1)
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
+        if (hiragana_agent.detect(AgentDetection.Block, FORWARD) == true) {
             hiragana_agent.destroy(FORWARD)
         } else {
             hiragana_agent.place(FORWARD)

@@ -24,7 +24,7 @@ player.onChat("run", function () {
     for (let index = 0; index < 4; index++) {
         for (let index = 0; index < 4; index++) {
             hiragana_agent.move(FORWARD, 1)
-            if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == true) {
+            if (hiragana_agent.detect(AgentDetection.Block, DOWN) == true) {
                 hiragana_agent.destroy(DOWN)
             }
         }
