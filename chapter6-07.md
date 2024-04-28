@@ -5,7 +5,7 @@
 
 ## エージェントをうごかしてみよう！
 
-こんかいは``||agent.エージェントに○におかせる||``ブロックをつかうよ！
+こんかいは``||agent.エージェントに◯へおかせる||``ブロックをつかうよ！
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 ```template

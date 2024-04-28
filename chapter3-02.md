@@ -6,7 +6,7 @@
 ## エージェントをつかって、ブロックをおいてもらおう！
 
 エージェントをつかってブロックをおいてもらうには、
-``||agent.エージェントに前におかせる||``ブロックをつかうよ！
+``||agent.エージェントに前へおかせる||``ブロックをつかうよ！
 ほうこうをえらんで、エージェントがどのほうこうにブロックをおいてもらうかきめよう！
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
