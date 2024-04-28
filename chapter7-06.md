@@ -5,7 +5,7 @@
 
 ## エージェントをうごかしてみよう！
 
-こんかいは``||agent.エージェントに◯を破壊させる|``ブロックをつかうよ！
+こんかいは``||agent.エージェントに◯をはかいさせる|``ブロックをつかうよ！
 
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！

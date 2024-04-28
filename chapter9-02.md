@@ -7,8 +7,8 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントに◯へ置かせる||``
-``||agent.エージェントにを◯に◯ブロック移動させる||``
+``||agent.エージェントに◯におかせる||``
+``||agent.エージェントにを◯に◯ブロックいどうさせる||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおそう！
 
