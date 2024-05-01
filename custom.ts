@@ -23,7 +23,7 @@ namespace hiragana_agent {
     }
 
     //% blockId=hiragana_agent_5
-    //% block="エージェントを %t_pos=minecraftCreatePosition へテレポートさせる"
+    //% block="エージェントをいまのいちから %t_pos=minecraftCreatePosition にテレポートさせる"
     export function teleport(t_pos: Position): void {
         let agentTrune: CompassDirection
         let agentOrient = agent.getOrientation()
