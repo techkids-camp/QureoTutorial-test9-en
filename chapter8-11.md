@@ -7,11 +7,11 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントにどんなブロックか、◯を確認させる||``
+``||agent.エージェントの◯のブロック||``
 
-``||agent.エージェントに◯を破壊させる||``
+``||agent.エージェントに◯をはかいさせる||``
 
-``||agent.エージェントを◯に◯ブロック移動させる||``
+``||agent.エージェントを◯に◯ブロックいどうさせる||``
 
 ``||blocks.丸石（まるいし）ブロック||``
 
@@ -24,7 +24,7 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 11; index++) {
-        agent.move(RIGHT, 1)
+        hiragana_agent.move(RIGHT, 1)
     }
 })
 
@@ -32,13 +32,13 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 11; index++) {
-        agent.move(RIGHT, 1)
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, RIGHT) == COBBLESTONE) {
-            agent.move(DOWN, 1)
-            agent.move(RIGHT, 2)
-            agent.move(UP, 1)
+        hiragana_agent.move(RIGHT, 1)
+        if (hiragana_agent.inspect(AgentInspection.Block, RIGHT) == COBBLESTONE) {
+            hiragana_agent.move(DOWN, 1)
+            hiragana_agent.move(RIGHT, 2)
+            hiragana_agent.move(UP, 1)
         } else {
-            agent.destroy(RIGHT)
+            hiragana_agent.destroy(RIGHT)
         }
     }
 })

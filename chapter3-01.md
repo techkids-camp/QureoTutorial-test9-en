@@ -6,13 +6,13 @@
 ## エージェントをつかって、ブロックをおいてもらおう！
 
 エージェントをつかってブロックをおいてもらうには、
-``||agent.エージェントに前へ置かせる||``ブロックをつかうよ！
+``||agent.エージェントに前へおかせる||``ブロックをつかうよ！
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 
 ```ghost
     player.onChat("run", function () {
-        agent.place(FORWARD)
+        hiragana_agent.place(FORWARD)
     })
 ```
 

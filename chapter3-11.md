@@ -5,14 +5,14 @@
 
 ## エージェントをつかって、ブロックをはかしよう!
 
-``||agent.エージェントに前を破壊させる||``ブロックと``||agent.エージェントを前に1ブロック移動させる||``ブロックとくみあわせてエージェントにブロックをこわしてもらおう！
+``||agent.エージェントに前をはかいさせる||``ブロックと``||agent.エージェントを前に1ブロックいどうさせる||``ブロックとくみあわせてエージェントにブロックをこわしてもらおう！
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 
 ```ghost
     player.onChat("run", function () {
-        agent.destroy(FORWARD)
-        agent.move(FORWARD, 1)
+        hiragana_agent.destroy(FORWARD)
+        hiragana_agent.move(FORWARD, 1)
     })
 ```
 

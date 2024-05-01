@@ -7,11 +7,11 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントにどんなブロックか、◯を確認させる||``
+``||agent.エージェントの◯のブロック||``
 
-``||agent.エージェントに◯を破壊させる||``
+``||agent.エージェントに◯をはかいさせる||``
 
-``||agent.エージェントを◯に◯ブロック移動させる||``
+``||agent.エージェントを◯に◯ブロックいどうさせる||``
 
 ``||blocks.草（くさ）ブロック||``
 
@@ -30,11 +30,11 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
-            agent.destroy(FORWARD)
-            agent.move(RIGHT, 1)
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
+            hiragana_agent.destroy(FORWARD)
+            hiragana_agent.move(RIGHT, 1)
         } else {
-            agent.move(RIGHT, 1)
+            hiragana_agent.move(RIGHT, 1)
         }
     }
 })

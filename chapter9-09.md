@@ -9,11 +9,11 @@
 
 ``||loop.もし真ならくりかえし||``
 
-``||agent.エージェントに◯へ置かせる||``
+``||agent.エージェントに◯へおかせる||``
 
-``||agent.エージェントを◯に◯ブロック移動させる||``
+``||agent.エージェントを◯に◯ブロックいどうさせる||``
 
-``||agent.エージェントにブロックがあるか、◯を確認させる||``
+``||agent.エージェントの前にブロックがある||``
 
 ``||logic.もし◯なら||``
 ``||logic.=||``
@@ -34,10 +34,10 @@ player.onChat("run", function () {
 
 ```ghost
 while (true) {
-    agent.destroy(FORWARD)
-    agent.destroy(DOWN)
-    agent.move(FORWARD, 1)
-    if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == false) {
+    hiragana_agent.destroy(FORWARD)
+    hiragana_agent.destroy(DOWN)
+    hiragana_agent.move(FORWARD, 1)
+    if (hiragana_agent.detect(AgentDetection.Block, FORWARD) == false) {
         break;
     }
 }

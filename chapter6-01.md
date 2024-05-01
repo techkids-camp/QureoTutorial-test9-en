@@ -9,8 +9,8 @@
 
 ```template
 player.onChat("run", function () {
-    if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
-        agent.destroy(FORWARD)
+    if (hiragana_agent.detect(AgentDetection.Block, FORWARD) == true) {
+        hiragana_agent.destroy(FORWARD)
     }
 })
 ```

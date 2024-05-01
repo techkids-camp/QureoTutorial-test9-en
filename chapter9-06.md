@@ -7,9 +7,9 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントに◯を破壊させる||``
+``||agent.エージェントに◯をはかいさせる||``
 
-``||agent.エージェントを◯に◯ブロック移動させる||``
+``||agent.エージェントを◯に◯ブロックいどうさせる||``
 
 ``||agent.エージェントにどんなブロックがあるか、◯を確認させる||``
 
@@ -33,9 +33,9 @@ player.onChat("run", function () {
 
 ```ghost
 while (true) {
-    agent.destroy(FORWARD)
-    agent.move(RIGHT, 1)
-    if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
+    hiragana_agent.destroy(FORWARD)
+    hiragana_agent.move(RIGHT, 1)
+    if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == DIAMOND_BLOCK) {
         break;
     }
 }

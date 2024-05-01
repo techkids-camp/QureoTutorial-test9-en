@@ -7,14 +7,14 @@
 ## エージェントをつかって、ブロックをおいてもらおう！
 
 エージェントをつかってブロックをおいてもらうには、
-``||agent.エージェントに前へ置かせる||``ブロックをつかうよ！
+``||agent.エージェントに前へおかせる||``ブロックをつかうよ！
 
 ひだりからブロックをとりだして``||loops.最初だけ||``のわくにいれちゃおう！
 
 そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
 
 ```ghost
-agent.place(FORWARD)
+hiragana_agent.place(FORWARD)
 ```
 
 ```template

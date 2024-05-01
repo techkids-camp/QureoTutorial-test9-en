@@ -5,12 +5,12 @@
 
 ## エージェントをまえにいどうさせよう！
 
-ひだりにある``||agent.エージェントを前に1ブロック移動させる||``ブロックをみどりいろの「最初だけ」のなかにいれてみよう！
+ひだりにある``||agent.エージェントを前に1ブロックいどうさせる||``ブロックをみどりいろの「最初だけ」のなかにいれてみよう！
 
 いれたらみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしてプログラムをうごかしてみよう！
 
 ```ghost
-agent.move(FORWARD, 1)
+hiragana_agent.move(FORWARD, 1)
 ```
 
 ```template

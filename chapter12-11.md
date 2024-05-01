@@ -6,10 +6,7 @@
 
 ```template
 player.onChat("run", function () {
-    agent.teleport(positions.add(
-    agent.getPosition(),
-    pos(0, 0, 0)
-    ), SOUTH)
+    hiragana_agent.teleport(pos(0, 0, 0))
 })
 
 ```
@@ -17,15 +14,15 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
-        agent.move(FORWARD, 1)
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == false) {
+        hiragana_agent.move(FORWARD, 1)
+        if (hiragana_agent.detect(AgentDetection.Block, DOWN) == false) {
            
         }
     }
     while (true) {
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == GRASS) {
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
         }
-        agent.turn(LEFT_TURN)
+        hiragana_agent.turn(LEFT_TURN)
     }
 })
 

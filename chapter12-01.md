@@ -7,17 +7,17 @@
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
-        agent.move(FORWARD, 1)
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, DOWN) == false) {
-            agent.place(DOWN)
+        hiragana_agent.move(FORWARD, 1)
+        if (hiragana_agent.detect(AgentDetection.Block, DOWN) == false) {
+            hiragana_agent.place(DOWN)
         }
     }
     while (true) {
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == GRASS) {
-            agent.place(DOWN)
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
+            hiragana_agent.place(DOWN)
         }
     }
-    agent.turn(LEFT_TURN)
+    hiragana_agent.turn(LEFT_TURN)
 })
 
 ```

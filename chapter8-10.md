@@ -7,9 +7,9 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントに◯を破壊させる||``
+``||agent.エージェントに◯をはかいさせる||``
 
-``||agent.エージェントを◯に◯ブロック移動させる||``
+``||agent.エージェントを◯に◯ブロックいどうさせる||``
 
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
@@ -17,8 +17,8 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 8; index++) {
-        agent.move(FORWARD, 1)
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == COBBLESTONE) {
+        hiragana_agent.move(FORWARD, 1)
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == COBBLESTONE) {
         } else {
         }
     }
@@ -28,13 +28,13 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 8; index++) {
-        agent.move(FORWARD, 1)
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == COBBLESTONE) {
-            agent.move(UP, 1)
-            agent.move(FORWARD, 2)
-            agent.move(DOWN, 1)
+        hiragana_agent.move(FORWARD, 1)
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == COBBLESTONE) {
+            hiragana_agent.move(UP, 1)
+            hiragana_agent.move(FORWARD, 2)
+            hiragana_agent.move(DOWN, 1)
         } else {
-            agent.destroy(FORWARD)
+            hiragana_agent.destroy(FORWARD)
         }
     }
 })

@@ -3,19 +3,16 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをつかって、ブロックをはかいしよう！
+## エージェントをつかって、ブロックをはかしよう!
 
-エージェントをつかってブロックをはかいするには、
-``||agent.エージェントに前を破壊させる||``ブロックをつかうよ！
-ほうこうをえらんで、エージェントがどのほうこうのブロックをはかいするかきめよう！
+``||agent.エージェントに前をはかいさせる||``ブロックと``||agent.エージェントを前に1ブロックいどうさせる||``ブロックとくみあわせてエージェントにブロックをこわしてもらおう！
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 
-
-
 ```ghost
     player.onChat("run", function () {
-        agent.destroy(FORWARD)
+        hiragana_agent.destroy(FORWARD)
+        hiragana_agent.move(FORWARD, 1)
     })
 ```
 

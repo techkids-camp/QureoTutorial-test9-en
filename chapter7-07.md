@@ -7,8 +7,8 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントにどんなブロックか○を確認させる||``
-``||logic.もし○○なら||``
+``||agent.エージェントの◯のブロック||``
+``||logic.もし◯◯なら||``
 ``||logic.=||``
 ``||blocks.樫(かし)の木材||``
 
@@ -17,16 +17,16 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
-        agent.move(LEFT, 1)
+        hiragana_agent.move(LEFT, 1)
     }
 })
 ```
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
-        agent.move(LEFT, 1)
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
-            agent.destroy(FORWARD)
+        hiragana_agent.move(LEFT, 1)
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
+            hiragana_agent.destroy(FORWARD)
         }
     }
 })

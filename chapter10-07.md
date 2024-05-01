@@ -9,11 +9,11 @@
 
 ``||loop.もし真ならくりかえし||``
 
-``||agent.エージェントに◯へ置かせる||``
+``||agent.エージェントに◯へおかせる||``
 
-``||agent.エージェントを◯に◯ブロック移動させる||``
+``||agent.エージェントを◯に◯ブロックいどうさせる||``
 
-``||agent.エージェントを自分の位置にもどす||``
+``||agent.エージェントをじぶんのいちにもどす||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてgoとrunをいれてプログラムをうごかしてみよう！
 
@@ -31,12 +31,12 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("go", function () {
     while (true) {
-        agent.move(FORWARD, 1)
-        agent.place(DOWN)
+        hiragana_agent.move(FORWARD, 1)
+        hiragana_agent.place(DOWN)
     }
 })
 player.onChat("run", function () {
-    agent.teleportToPlayer()
+    hiragana_agent.teleportToPlayer()
 })
 
 ```

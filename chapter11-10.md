@@ -4,7 +4,7 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントを破壊させる||``
+``||agent.エージェントに〇をはかいさせる||``
 
 すうじをそれぞれどれだけかえればいいかな？
 
@@ -12,21 +12,15 @@
 
 ```template
 player.onChat("run", function () {
-    agent.teleport(positions.add(
-    agent.getPosition(),
-    pos(0, 0, 0)
-    ), EAST)
+    hiragana_agent.teleport(pos(0, 0, 0))
 })
 
 ```
 
 ```ghost
 player.onChat("run", function () {
-    agent.teleport(positions.add(
-    agent.getPosition(),
-    pos(0, 0, 0)
-    ), WEST)
-    agent.destroy(FORWARD)
+    hiragana_agent.teleport(pos(0, 0, 0))
+    hiragana_agent.destroy(FORWARD)
 })
 
 ```

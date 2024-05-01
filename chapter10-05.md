@@ -7,11 +7,11 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントに◯を破壊させる||``
+``||agent.エージェントに◯をはかいさせる||``
 
-``||agent.エージェントを◯に◯ブロック移動させる||``
+``||agent.エージェントを◯に◯ブロックいどうさせる||``
 
-``||agent.エージェントを自分の位置にもどす||``
+``||agent.エージェントをじぶんのいちにもどす||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてgoとrunをいれてプログラムをうごかしてみよう！
 
@@ -29,13 +29,13 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("go", function () {
     while (true) {
-        agent.destroy(FORWARD)
-        agent.move(FORWARD, 1)
-        agent.destroy(UP)
+        hiragana_agent.destroy(FORWARD)
+        hiragana_agent.move(FORWARD, 1)
+        hiragana_agent.destroy(UP)
     }
 })
 player.onChat("run", function () {
-    agent.teleportToPlayer()
+    hiragana_agent.teleportToPlayer()
 })
 
 ```

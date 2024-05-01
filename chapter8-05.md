@@ -7,11 +7,11 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントにブロックがあるか、◯を確認させる||``
+``||agent.エージェントの前にブロックがある||``
 
-``||agent.エージェントに◯へ置かせる|``
+``||agent.エージェントに◯へおかせる|``
 
-``||agent.エージェントに◯を破壊させる||``
+``||agent.エージェントに◯をはかいさせる||``
 
 ``||logic.もし〇なら〜でなければ〜||``
 ``||logic.=||``
@@ -22,18 +22,18 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 6; index++) {
-        agent.move(LEFT, 1)
+        hiragana_agent.move(LEFT, 1)
     }
 })
 ```
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 6; index++) {
-        agent.move(LEFT, 1)
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, FORWARD) == true) {
-            agent.destroy(FORWARD)
+        hiragana_agent.move(LEFT, 1)
+        if (hiragana_agent.detect(AgentDetection.Block, FORWARD) == true) {
+            hiragana_agent.destroy(FORWARD)
         } else {
-            agent.place(FORWARD)
+            hiragana_agent.place(FORWARD)
         }
     }
 })

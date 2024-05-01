@@ -7,9 +7,9 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントの向きを○に変える||``
-``||agent.エージェントにどんなブロックか○を確認させる||``
-``||logic.もし○○なら||``
+``||agent.エージェントの向きを◯にかえる||``
+``||agent.エージェントの◯のブロック||``
+``||logic.もし◯◯なら||``
 ``||logic.=||``
 ``||blocks.丸石||``
 ``||blocks.樫(かし)の木材||``
@@ -19,19 +19,19 @@
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 15; index++) {
-        agent.move(FORWARD, 1)
+        hiragana_agent.move(FORWARD, 1)
     }
 })
 ```
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 15; index++) {
-        agent.move(FORWARD, 1)
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
-            agent.turn(LEFT_TURN)
+        hiragana_agent.move(FORWARD, 1)
+        if (hiragana_agent.inspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
+            hiragana_agent.turn(LEFT_TURN)
         }
-        if (agentInspectDetect.agentInspect(AgentInspection.Block, DOWN) == PLANKS_OAK) {
-            agent.turn(RIGHT_TURN)
+        if (hiragana_agent.inspect(AgentInspection.Block, DOWN) == PLANKS_OAK) {
+            hiragana_agent.turn(RIGHT_TURN)
         }
     }
 })

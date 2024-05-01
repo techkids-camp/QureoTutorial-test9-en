@@ -7,16 +7,16 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントに◯へ置かせる||``
+``||agent.エージェントに◯へおかせる||``
 
-``||agent.エージェントを◯に◯ブロック移動させる||``
+``||agent.エージェントを◯に◯ブロックいどうさせる||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおそう！
 
 ```template
 player.onChat("run", function () {
     while (true) {
-        if (agentInspectDetect.agentDetect(AgentDetection.Block, UP) == true) {
+        if (hiragana_agent.detect(AgentDetection.Block, UP) == true) {
             break;
         }
     }
@@ -25,12 +25,12 @@ player.onChat("run", function () {
 
 ```ghost
 while (true) {
-    agent.place(FORWARD)
-    agent.place(BACK)
-    agent.place(LEFT)
-    agent.place(RIGHT)
-    agent.move(UP, 1)
-    if (agentInspectDetect.agentDetect(AgentDetection.Block, UP) == true) {
+    hiragana_agent.place(FORWARD)
+    hiragana_agent.place(BACK)
+    hiragana_agent.place(LEFT)
+    hiragana_agent.place(RIGHT)
+    hiragana_agent.move(UP, 1)
+    if (hiragana_agent.detect(AgentDetection.Block, UP) == true) {
         break;
     }
 }

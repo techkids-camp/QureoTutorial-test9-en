@@ -7,15 +7,15 @@
 
 こんかいはつぎのブロックをつかうよ！
 
-``||agent.エージェントを◯に◯ブロック移動させる||``
+``||agent.エージェントを◯に◯ブロックいどうさせる||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてgoとrunをいれてプログラムをうごかしてみよう！
 
 ```template
 player.onChat("go", function () {
     while (true) {
-        agent.place(FORWARD)
-        agent.turn(LEFT_TURN)
+        hiragana_agent.place(FORWARD)
+        hiragana_agent.turn(LEFT_TURN)
     }
 })
 player.onChat("run", function () {
@@ -26,11 +26,11 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("go", function () {
     while (true) {
-        agent.place(FORWARD)
-        agent.turn(LEFT_TURN)
+        hiragana_agent.place(FORWARD)
+        hiragana_agent.turn(LEFT_TURN)
     }
 })
 player.onChat("run", function () {
-    agent.move(UP, 1)
+    hiragana_agent.move(UP, 1)
 })
 ```
