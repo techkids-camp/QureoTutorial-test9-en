@@ -13,7 +13,7 @@ player.onChat("run", function () {
         }
     }
     while (true) {
-        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == GRASS) {
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == BRICKS) {
             hiragana_agent.turn(LEFT_TURN)
         }
     }

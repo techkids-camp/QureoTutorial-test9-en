@@ -13,7 +13,7 @@
 
 ``||agent.エージェントを◯に◯ブロックいどうさせる||``
 
-``||blocks.草（くさ）ブロック||``
+``||blocks.レンガブロック||``
 
 ``||logic.もし◯なら〜でなければ〜||``
 ``||logic.=||``
@@ -30,7 +30,7 @@ player.onChat("run", function () {
 ```ghost
 player.onChat("run", function () {
     for (let index = 0; index < 10; index++) {
-        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == BRICKS) {
             hiragana_agent.destroy(FORWARD)
             hiragana_agent.move(RIGHT, 1)
         } else {
