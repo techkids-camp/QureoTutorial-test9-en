@@ -19,7 +19,7 @@ player.onChat("run", function () {
         hiragana_agent.move(UP, 1)
         if (hiragana_agent.inspect(AgentInspection.Block, UP) == COBBLESTONE) {
         }
-        if (hiragana_agent.inspect(AgentInspection.Block, UP) == PLANKS_OAK) {
+        if (hiragana_agent.inspect(AgentInspection.Block, UP) == BRICKS) {
         }
     }
 })
@@ -33,7 +33,7 @@ player.onChat("run", function () {
             hiragana_agent.move(UP, 2)
             hiragana_agent.move(LEFT, 1)
         }
-        if (hiragana_agent.inspect(AgentInspection.Block, UP) == PLANKS_OAK) {
+        if (hiragana_agent.inspect(AgentInspection.Block, UP) == BRICKS) {
             hiragana_agent.destroy(UP)
         }
     }
