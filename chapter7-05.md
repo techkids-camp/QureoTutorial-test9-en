@@ -12,7 +12,7 @@
 ``||logic.もし◯◯なら||``
 ``||logic.=||``
 ``||blocks.丸石||``
-``||blocks.樫(かし)の木材||``
+``||blocks.レンガブロック||``
 
 みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
 
@@ -30,7 +30,7 @@ player.onChat("run", function () {
         if (hiragana_agent.inspect(AgentInspection.Block, DOWN) == COBBLESTONE) {
             hiragana_agent.turn(LEFT_TURN)
         }
-        if (hiragana_agent.inspect(AgentInspection.Block, DOWN) == PLANKS_OAK) {
+        if (hiragana_agent.inspect(AgentInspection.Block, DOWN) == BRICKS) {
             hiragana_agent.turn(RIGHT_TURN)
         }
     }

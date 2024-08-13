@@ -14,7 +14,7 @@
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
         hiragana_agent.move(UP, 1)
-        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == BRICKS) {
         }
     }
 })
@@ -23,7 +23,7 @@ player.onChat("run", function () {
 player.onChat("run", function () {
     for (let index = 0; index < 12; index++) {
         hiragana_agent.move(UP, 1)
-        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == PLANKS_OAK) {
+        if (hiragana_agent.inspect(AgentInspection.Block, FORWARD) == BRICKS) {
             hiragana_agent.destroy(FORWARD)
         }
     }
