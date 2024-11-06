@@ -1,13 +1,14 @@
 # QureoMinecraft
 
-## エージェントをつかって、たてものをつくってもらおう！
+## Let's use the agent to build a structure!
 
-プログラムはすでにかんせいしているからうごかすだけだよ！
+The program is already complete, so you just need to run it!
 
-そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
+Then, press the play button at the bottom right![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) and the program will start running!
+
 
 ```ghost
-function くうらん () {
+function blank () {
     hiragana_agent.place(FORWARD)
     hiragana_agent.move(UP, 1)
     hiragana_agent.place(FORWARD)
@@ -72,92 +73,7 @@ function くうらん () {
     hiragana_agent.place(FORWARD)
     hiragana_agent.move(UP, 1)
     hiragana_agent.setSlot(4)
-    くうらん()
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.setSlot(5)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.place(BACK)
-    hiragana_agent.teleport(pos(0, 0, 1))
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.place(BACK)
-    hiragana_agent.setSlot(2)
-    hiragana_agent.place(RIGHT)
-    hiragana_agent.move(UP, 1)
-    hiragana_agent.place(DOWN)
-    hiragana_agent.place(RIGHT)
-    hiragana_agent.move(UP, 1)
-    hiragana_agent.place(DOWN)
-
-
-```
-
-```template
-function くうらん () {
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(UP, 1)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(BACK, 3)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(DOWN, 1)
-    hiragana_agent.place(FORWARD)
-}
-
-    hiragana_agent.move(FORWARD, 3)
-    hiragana_agent.setSlot(1)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(UP, 1)
-    hiragana_agent.setSlot(2)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(BACK, 5)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(DOWN, 1)
-    hiragana_agent.setSlot(1)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.destroy(DOWN)
-    agent.collectAll()
-    hiragana_agent.setSlot(3)
-    hiragana_agent.place(DOWN)
-    hiragana_agent.move(FORWARD, 1)
-    for (let index = 0; index < 2; index++) {
-        hiragana_agent.destroy(DOWN)
-        hiragana_agent.move(DOWN, 1)
-    }
-    hiragana_agent.destroy(FORWARD)
-    hiragana_agent.move(FORWARD, 1)
-    for (let index = 0; index < 2; index++) {
-        hiragana_agent.turn(LEFT_TURN)
-        hiragana_agent.destroy(FORWARD)
-        hiragana_agent.place(FORWARD)
-        hiragana_agent.turn(LEFT_TURN)
-        hiragana_agent.place(FORWARD)
-        hiragana_agent.turn(LEFT_TURN)
-        hiragana_agent.destroy(FORWARD)
-        hiragana_agent.place(FORWARD)
-        hiragana_agent.turn(LEFT_TURN)
-        hiragana_agent.destroy(FORWARD)
-        agent.collectAll()
-        hiragana_agent.move(FORWARD, 1)
-    }
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.turn(LEFT_TURN)
-    hiragana_agent.destroy(UP)
-    agent.collectAll()
-    hiragana_agent.move(UP, 1)
-    hiragana_agent.place(DOWN)
-    hiragana_agent.destroy(FORWARD)
-    hiragana_agent.place(FORWARD)
-    hiragana_agent.move(UP, 1)
-    hiragana_agent.setSlot(4)
-    くうらん()
+    blank()
     hiragana_agent.turn(LEFT_TURN)
     hiragana_agent.setSlot(5)
     hiragana_agent.place(FORWARD)

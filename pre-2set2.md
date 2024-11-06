@@ -3,11 +3,11 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをつかって、ブロックをおいてもらおう！
+## Let's use an agent to place blocks!
 
-こんかいは``||loops.くりかえし||``ブロックをつかうよ！4かいどのようなうごきをすればいいかな？
+This time we'll use ``||loops.repeat ~ times do||`` blocks! What kind of movement should we do four times?
 
-そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
+After that, press the button on the bottom right![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) to start the program!
 
 ```ghost
 for (let index = 0; index < 4; index++) {

@@ -3,11 +3,11 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをつかって、ブロックをおいてもらおう！
+## Let's get the agent to place blocks!
 
-``||agent.エージェントに前へおかせる||``ブロックと``||agent.エージェントを前に1ブロックいどうさせる||``ブロックとくみあわせてエージェントにブロックをおいてもらおう！エージェントをべつのほうこうにうごかすには「前」のところをクリックすればメニューがでてきてえらべるよ！
+``||agent.agent place forward||`` blocks and``||agent.agent move forward by 1 block||`` blocks to get the agent to place blocks! To make the agent move in a different direction, click on the “forward” part and a menu will appear where you can choose!
 
-そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
+After that, press the button on the bottom right![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) to start the program!
 
 ```ghost
 hiragana_agent.place(FORWARD)
