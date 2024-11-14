@@ -7,7 +7,7 @@
 ## Let's use the agent to place blocks!
 
 To use an agent to place blocks,
-we'll use the ``||agent. Let the agent place the block in front of you||`` block!
+we'll use the ``||agent. agent place forward||`` block!
 
 Take the block from the left and put it in the ``||loops.on start||`` box!
 
