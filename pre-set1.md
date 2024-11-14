@@ -4,14 +4,14 @@
 
 # QureoMinecraft
 
-## エージェントをつかって、ブロックをおいてもらおう！
+## Let's use the agent to place blocks!
 
-エージェントをつかってブロックをおいてもらうには、
-``||agent.エージェントに前へおかせる||``ブロックをつかうよ！
+To use an agent to place blocks,
+we'll use the ``||agent. agent place forward||`` block!
 
-ひだりからブロックをとりだして``||loops.最初だけ||``のわくにいれちゃおう！
+Take the block from the left and put it in the ``||loops.on start||`` box!
 
-そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
+After that, press the button on the bottom right![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) to start the program!
 
 ```ghost
 hiragana_agent.place(FORWARD)

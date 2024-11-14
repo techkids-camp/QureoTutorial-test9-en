@@ -1,10 +1,10 @@
 # QureoMinecraft
 
-## エージェントをつかって、たてものをつくってもらおう！
+## Let's use the agent to build a structure!
 
-プログラムはすでにかんせいしているからうごかすだけだよ！
+The program is already complete, so all you need to do is run it!
 
-そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
+After that, click the play button on the bottom right![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) to execute the program!
 
 ```ghost
     for (let index = 0; index < 15; index++) {

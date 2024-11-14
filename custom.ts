@@ -1,29 +1,29 @@
 /**
  * Custom blocks
  */
-//% color=#D83B01 weight=400 icon="\uf1e6" block="ひらがな＿エージェント"
+//% color=#D83B01 weight=400 icon="\uf1e6" block="Agent"
 namespace hiragana_agent {
 
     //% blockId=hiragana_agent_8
-    //% block="エージェントをじぶんのいちにもどす"
+    //% block="agent teleport to player"
     export function teleportToPlayer(): void {
         return agent.teleportToPlayer();
     }
 
     //% blockId=hiragana_agent_7
-    //% block="エージェントの $direction の　$kind  "
+    //% block="agent inspect $kind $direction"
     export function inspect(kind: AgentInspection, direction: SixDirection): number {
         return agent.inspect(kind, direction);
     }
 
     //% blockId=hiragana_agent_6
-    //% block="エージェントの  $direction　に　$kind  がある"
+    //% block="agent detect $kind $direction"
     export function detect(kind: AgentDetection, direction: SixDirection): boolean {
         return agent.detect(kind, direction);
     }
 
     //% blockId=hiragana_agent_5
-    //% block="エージェントをいまのいちから %t_pos=minecraftCreatePosition にテレポートさせる"
+    //% block="agent teleport to %t_pos=minecraftCreatePosition"
     export function teleport(t_pos: Position): void {
         let agentTrune: CompassDirection
         let agentOrient = agent.getOrientation()
@@ -42,32 +42,32 @@ namespace hiragana_agent {
     }
 
     //% blockId=hiragana_agent_4
-    //% block="スロットばんごう $slot をセットする"
+    //% block="agent set active slot $slot"
     export function setSlot(slot: number): void {
         return agent.setSlot(slot);
     }
 
     //% blockId=hiragana_agent_3
-    //% block=" エージェントに $direction をはかいさせる"
+    //% block="agent destroy $direction"
     export function destroy(direction: SixDirection): void {
         return agent.destroy(direction);
     }
 
     //% blockId=hiragana_agent_2
-    //% block="エージェントに $direction へおかせる"
+    //% block="agent place $direction"
     export function place(direction: SixDirection): void {
         return agent.place(direction);
     }
 
     //% blockId=hiragana_agent_1
-    //% block="エージェントのむきを $direction にかえる"
+    //% block="agent turn $direction"
     export function turn(direction: TurnDirection): void {
         return agent.turn(direction);
     }
 
 
     //% blockID=hiragana_agent_0
-    //% block="エージェントを $direction に $blocks ブロックいどうさせる"
+    //% block="agent move $direction by $blocks"
     //% blocks.defl=1
     export function move(direction: SixDirection, blocks: number): void {
         return agent.move(direction, blocks);

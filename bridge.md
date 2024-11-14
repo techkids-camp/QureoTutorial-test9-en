@@ -3,9 +3,10 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをつかって、じゆうにけんちくしてみよう！
+## Let's use the agent to build freely!
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
+After pressing the ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) button at the bottom right, press the T key and type ""run"" to execute the program!
+
 
 ```ghost
     player.onChat("run", function () {

@@ -1,13 +1,13 @@
 # QureoMinecraft
 
-## エージェントをつかって、たてものをつくってもらおう！
+## Let's use the agent to build a structure!
 
-プログラムはすでにかんせいしているからうごかすだけだよ！
+The program is already complete, so all you need to do is run it!
 
-そのあとみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたらプログラムがうごくよ！
+After that, press the button on the bottom right ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) to start the program!
 
 ```ghost
-function くうらん () {
+function blank () {
     hiragana_agent.move(UP, 1)
     hiragana_agent.setSlot(1)
     hiragana_agent.place(UP)
@@ -23,7 +23,7 @@ function くうらん () {
     hiragana_agent.move(DOWN, 1)
     for (let index = 0; index < 6; index++) {
         for (let index = 0; index < 3; index++) {
-            くうらん()
+            blank()
         }
         hiragana_agent.setSlot(3)
         for (let index = 0; index < 3; index++) {
