@@ -7,15 +7,12 @@ The program is already complete, so you just need to run it!
 After that, press the button on the bottom right![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) to start the program!
 
 ```ghost
-function blank () {
+
+    hiragana_agent.setSlot(1)
     for (let index = 0; index < 7; index++) {
         hiragana_agent.place(FORWARD)
         hiragana_agent.move(UP, 1)
     }
-}
-
-    hiragana_agent.setSlot(1)
-    blank()
     hiragana_agent.move(FORWARD, 2)
     hiragana_agent.setSlot(2)
     hiragana_agent.place(DOWN)

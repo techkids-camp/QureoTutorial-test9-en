@@ -7,7 +7,7 @@
 ## Let's get the agent to place a block!
 
 
-``||agent.agent place forward||`` block and``||agent.agent move forward by 1 block||`` block. Let's get the agent to place a block! Which block will be on top?
+``||agent.agent place forward||`` block and``||agent.agent move forward by 1||`` block. Let's get the agent to place a block! Which block will be on top?
 
 After that, press the button on the bottom right![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) to start the program!
 

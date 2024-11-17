@@ -1,4 +1,4 @@
-# QureoMinecraft
+"# QureoMinecraft
 
 ## Let's use the agent to build a structure!
 
@@ -7,23 +7,19 @@ The program is already complete, so all you need to do is run it!
 After that, press the button on the bottom right ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) to start the program!
 
 ```ghost
-function blank () {
-    hiragana_agent.move(UP, 1)
-    hiragana_agent.setSlot(1)
-    hiragana_agent.place(UP)
-    hiragana_agent.move(DOWN, 1)
-    hiragana_agent.setSlot(2)
-    hiragana_agent.place(UP)
-    hiragana_agent.destroy(FORWARD)
-    agent.collectAll()
-    hiragana_agent.move(FORWARD, 1)
-}
-
     hiragana_agent.destroy(DOWN)
     hiragana_agent.move(DOWN, 1)
     for (let index = 0; index < 6; index++) {
         for (let index = 0; index < 3; index++) {
-            blank()
+            hiragana_agent.move(UP, 1)
+            hiragana_agent.setSlot(1)
+            hiragana_agent.place(UP)
+            hiragana_agent.move(DOWN, 1)
+            hiragana_agent.setSlot(2)
+            hiragana_agent.place(UP)
+            hiragana_agent.destroy(FORWARD)
+            agent.collectAll()
+            hiragana_agent.move(FORWARD, 1)
         }
         hiragana_agent.setSlot(3)
         for (let index = 0; index < 3; index++) {
@@ -103,23 +99,19 @@ function blank () {
 ```
 
 ```template
-function くうらん () {
-    hiragana_agent.move(UP, 1)
-    hiragana_agent.setSlot(1)
-    hiragana_agent.place(UP)
-    hiragana_agent.move(DOWN, 1)
-    hiragana_agent.setSlot(2)
-    hiragana_agent.place(UP)
-    hiragana_agent.destroy(FORWARD)
-    agent.collectAll()
-    hiragana_agent.move(FORWARD, 1)
-}
-
     hiragana_agent.destroy(DOWN)
     hiragana_agent.move(DOWN, 1)
     for (let index = 0; index < 6; index++) {
         for (let index = 0; index < 3; index++) {
-            くうらん()
+            hiragana_agent.move(UP, 1)
+            hiragana_agent.setSlot(1)
+            hiragana_agent.place(UP)
+            hiragana_agent.move(DOWN, 1)
+            hiragana_agent.setSlot(2)
+            hiragana_agent.place(UP)
+            hiragana_agent.destroy(FORWARD)
+            agent.collectAll()
+            hiragana_agent.move(FORWARD, 1)
         }
         hiragana_agent.setSlot(3)
         for (let index = 0; index < 3; index++) {
@@ -195,4 +187,4 @@ function くうらん () {
         hiragana_agent.place(FORWARD)
     }
 
-```
+```"
