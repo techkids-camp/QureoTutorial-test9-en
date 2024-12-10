@@ -3,11 +3,11 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをまえにいどうさせよう！
+## Move the Agent Forward!
 
-ひだりにある``||agent.エージェントを前に1ブロックいどうさせる||``ブロックをみどりいろの「最初だけ」のなかにいれてみよう！
+Let's place the ``||agent.agent move forward by 1||`` block from the left into the green ``||loops.on start||``  block!
 
-いれたらみぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしてプログラムをうごかしてみよう！
+Once you've done that, press  ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right to run the program!
 
 ```ghost
 hiragana_agent.move(FORWARD, 1)
