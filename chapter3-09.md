@@ -3,12 +3,12 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをつかって、ブロックをはかいしよう！
+### Let's have the agent destroy blocks!
 
-エージェントをつかってブロックをはかいするには、
-``||agent.エージェントに前をはかいさせる||``ブロックをつかうよ！
+To destroy blocks using the agent,
+use the ``||agent.agent destroy forward||`` block!
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
+After pressing ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 'T' key and type 'run' to execute the program!
 
 ```ghost
     player.onChat("run", function () {
