@@ -8,7 +8,7 @@
 To destroy blocks using the agent,
 use the ``||agent.agent destroy forward||`` block!
 
-After pressing ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 'T' key and type 'run' to execute the program!
+After pressing ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 't' key and enter 'run' to run the program!
 
 ```ghost
     player.onChat("run", function () {

@@ -3,7 +3,7 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## Let's use the agent to place blocks!
+## Let's have the agent to place blocks!
 
 To use the agent to place blocks,
 use the ``||agent.agent place forward||`` block!
@@ -18,4 +18,4 @@ After pressing ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCamp
 
 ```template
     player.onChat("run", function () {})
-```"
+```

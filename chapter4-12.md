@@ -3,11 +3,11 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをつかって、スイッチをおさせよう！
+## Let's have the agent press the switch!
 
-こんかいは``||loops.くりかえし||``ブロックを2つつかうよ！どこをつけたせばうごくかな？
+This time you'll have two ``||repeat ~ times to do||`` blocks! What should we add to make it work?
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
+After pressing ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 't' key and enter 'run' to run the program!
 
 ```ghost
     player.onChat("run", function () {
@@ -17,7 +17,6 @@
         }
     })
 ```
-
 
 ```template
     player.onChat("run", function () {

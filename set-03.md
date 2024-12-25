@@ -3,7 +3,7 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## Use an agent to place blocks!
+## Let's have the agent to place blocks!
 
 Combine the ``||agent.agent place forward||`` block and the ``||agent.agent move forward by 1||`` block to make the agent place blocks!
 

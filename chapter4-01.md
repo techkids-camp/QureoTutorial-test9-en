@@ -7,7 +7,7 @@
 
 This time, we will use the ``||loops.repeat ~ times do||`` block! What should we repeat, and how many times?
 
-After pressing ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 'T' key and type 'run' to run the program!
+After pressing ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 't' key and enter 'run' to run the program!
 
 ```ghost
     player.onChat("run", function () {
@@ -16,7 +16,6 @@ After pressing ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCamp
         }
     })
 ```
-
 
 ```template
     player.onChat("run", function () {
