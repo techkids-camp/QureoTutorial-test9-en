@@ -3,11 +3,11 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをつかって、ブロックをおいてもらおう！
+## Let's have the agent to place blocks!
 
-``||agent.エージェントに前へおかせる||``ブロックと``||agent.エージェントを前に1ブロックいどうさせる||``ブロックとくみあわせてエージェントにブロックをおいてもらおう！
+Combine the ``||agent.agent place forward||`` block and the ``||agent.agent move forward by 1||`` block to make the agent place blocks!
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
+After pressing ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 't' key and enter 'run' to run the program!
 
 ```ghost
     player.onChat("run", function () {
