@@ -3,9 +3,11 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをうごかしてみよう！
+## Let's try to wiggle the agent!
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしてプログラムをうごかしてみよう！
+Let's try to run the program by pressing ![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)
+
+
 
 ```template
 hiragana_agent.destroy(FORWARD)
