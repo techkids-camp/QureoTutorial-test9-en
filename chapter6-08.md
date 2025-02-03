@@ -3,11 +3,11 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをうごかしてみよう！
+## Let's let the agent wiggle around!
 
-こんかいは``||agent.エージェントに◯へおかせる||``ブロックをつかうよ！
+This time we'll use the ``||agent.agent place ◯||`` block!
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
+After pressing [](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 't' key and enter 'run' to run the program!
 ```template
 player.onChat("run", function () {
     for (let index = 0; index < 9; index++) {
