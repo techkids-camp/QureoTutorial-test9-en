@@ -3,7 +3,7 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## Let's move the agent around!
+## Let's move the agent!
 
 This time we'll use the following blocks!
 

@@ -3,7 +3,7 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## Let's wiggle the agent!
+## Let's move the agent!
 
 After pressing [](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 't' key and enter 'run' to run the program!
 

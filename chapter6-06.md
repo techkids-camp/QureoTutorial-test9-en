@@ -3,7 +3,7 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## Let's let the agent wiggle around!
+## Let's move the agent!
 
 This time we'll use the ``||agent.agent place ◯||`` block!
 
