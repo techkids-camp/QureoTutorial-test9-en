@@ -47,7 +47,7 @@ After that, click the play button on the bottom right![](https://raw.githubuserc
     hiragana_agent.place(DOWN)
     hiragana_agent.setSlot(5)
     hiragana_agent.place(DOWN)
-
+    hiragana_agent.placeMineCart()
 ```
 
 ```template
@@ -89,7 +89,5 @@ After that, click the play button on the bottom right![](https://raw.githubuserc
     hiragana_agent.move(UP, 1)
     hiragana_agent.setSlot(6)
     hiragana_agent.place(DOWN)
-    hiragana_agent.setSlot(5)
-    hiragana_agent.place(DOWN)
-
+    hiragana_agent.placeMineCart()
 ```
