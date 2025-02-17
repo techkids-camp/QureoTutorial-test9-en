@@ -72,4 +72,10 @@ namespace hiragana_agent {
     export function move(direction: SixDirection, blocks: number): void {
         return agent.move(direction, blocks);
     }
+
+    //% blockID=hiragana_agent_9
+    //% block="agent place minecart"
+    export function placeMineCart(): void {
+        return player.execute("execute @c ~~~ summon minecart");
+    }
 }
