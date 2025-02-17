@@ -7,9 +7,9 @@
 
 This time we'll use the following blocks!
 
-``||agent.agent turn ◯||``
-``||agent.agent inspect block ◯||``
-``||logic.if  ◯◯ then||``
+``||agent.agent turn 〇||``
+``||agent.agent inspect block 〇||``
+``||logic.if  〇〇 then||``
 ``||logic.=||``
 ``||blocks.Cobblestone||``
 ``||blocks.Brick Block||``

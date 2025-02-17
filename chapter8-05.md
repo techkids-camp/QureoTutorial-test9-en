@@ -9,7 +9,7 @@ This time we'll use the following block!
 
 ``||agent.agent detect block forward||``
 
-``||agent.agent place ◯||``
+``||agent.agent place 〇||``
 
 ``||agent.agent destroy 〇||``
 

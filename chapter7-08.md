@@ -7,7 +7,7 @@
 
 This time we'll use the following blocks!
 
-``||agent.move ◯ by ◯||``
+``||agent.move 〇 by 〇||``
 ``||agent.agent destroy 〇||``
 
 

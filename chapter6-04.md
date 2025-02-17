@@ -5,7 +5,7 @@
 
 ## Let's move the agent!
 
-This time we'll use the ``||agent.agent place ◯||`` block!
+This time we'll use the ``||agent.agent place 〇||`` block!
 
 After pressing [](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 't' key and enter 'run' to run the program!
 

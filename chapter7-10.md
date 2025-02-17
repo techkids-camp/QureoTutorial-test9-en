@@ -7,8 +7,8 @@
 
 This time we'll use the following blocks!
 
-``||agent.agent inspect block ◯||``
-``||logic.if  ◯◯ then||``
+``||agent.agent inspect block 〇||``
+``||logic.if  〇〇 then||``
 ``||logic.=||``
 ``||blocks.Brick Block||``
 

@@ -7,11 +7,11 @@
 
 This time we'll use the following block!
 
-``||agent.agent inspect block ◯||``
+``||agent.agent inspect block 〇||``
 
-``||agent.agent destroy ◯||``
+``||agent.agent destroy 〇||``
 
-``||agent.agent move ◯  by ◯||``
+``||agent.agent move 〇  by 〇||``
 
 ``||blocks.Brick Block||``
 
