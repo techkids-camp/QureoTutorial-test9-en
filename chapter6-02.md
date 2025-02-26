@@ -3,11 +3,11 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをうごかしてみよう！
+## Let's move the agent!
 
-こんかいは``||agent.エージェントに◯をはかいさせる||``ブロックをつかうよ！
+This time we'll use the ``||agent.agent destroy 〇||`` block!
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunといれてプログラムをうごかしてみよう！
+After pressing [](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 't' key and enter 'run' to run the program!
 ```template
 player.onChat("run", function () {
     if (hiragana_agent.detect(AgentDetection.Block, FORWARD) == true) {
