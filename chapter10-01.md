@@ -3,9 +3,9 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをうごかしてみよう！
+## Let's make the agent move!
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてgoとrunをいれてプログラムをうごかしてみよう！
+After pressing [](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 't' key and enter 'go' and 'run' to run the program!
 
 ```template
 player.onChat("go", function () {
