@@ -1,4 +1,4 @@
-"# QureoMinecraft
+# QureoMinecraft
 
 ## Let's use the agent to build a structure!
 

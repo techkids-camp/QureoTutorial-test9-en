@@ -3,19 +3,19 @@
 ### @hideIteration true
 # QureoMinecraft
 
-## エージェントをうごかしてみよう！
+## Let's make the agent move!
 
-こんかいはつぎのブロックをつかうよ！
+This time we'll use the following block!
 
-``||agent.エージェントの前にブロックがある||``
+``||agent.agent detect block 〇||``
 
-``||logic.もし〇なら||``
+``||logic.if 〇 then||``
 ``||logic.=||``
-``||logic.真||``
+``||logic.true||``
 
-``||loop.くりかえしを終わる||``
+``||loop.break||``
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおそう！
+After pressing [](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 't' key and enter 'run' to run the program!
 
 ```template
 player.onChat("run", function () {

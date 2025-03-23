@@ -1,8 +1,8 @@
 # QureoMinecraft
 
-## エージェントにゴミをこわしてもらおう！
+## Let's make the agent destroy the garbage!
 
-みぎしたの![](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png)をおしたあと、tキーをおしてrunをいれてプログラムをうごかしてみよう！
+After pressing [](https://raw.githubusercontent.com/camp-minecraft/TechkidsCampTutorial/master/images/playbutton.png) at the bottom right, press the 't' key and enter 'run' to run the program!
 
 ```ghost
 player.onChat("run", function () {
